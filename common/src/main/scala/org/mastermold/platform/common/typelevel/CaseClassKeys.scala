@@ -19,7 +19,7 @@ trait CaseClassKeys[T] {
 
 object CaseClassKeys {
 
-  implicit def toAttributes[T, Repr <: HList, KeysRepr <: HList](
+  implicit def toCaseClassKeys[T, Repr <: HList, KeysRepr <: HList](
                                                                   implicit gen: LabelledGeneric.Aux[T, Repr],
                                                                   keys: Keys.Aux[Repr, KeysRepr],
                                                                   traversable: ToTraversable.Aux[KeysRepr, List, Symbol]

@@ -13,12 +13,13 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.{AggregateGen
   *      https://www.postgresql.org/docs/9.1/rules-update.html
   * @tparam V Domain values
   * @tparam A Domain aggregate
-  * @param aggregateGenColumnList Aggregate column list
   */
-abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainAggregate[V]](aggregateGenColumnList: AggregateGenColumnList[A])
+abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainAggregate[V]: AggregateGenColumnList]
   extends WhereClauseMixinPostgresFragmentInterpreter {
 
-  val tableName: Fragment
+  protected val tableName: Fragment
+
+  protected implicit val aggregateGenColumnList: AggregateGenColumnList[A] = implicitly[AggregateGenColumnList[A]]
 
   // --- Query fragment
 
@@ -52,7 +53,8 @@ abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainA
     * @tparam Column Column type
     * @param columnNameOption Optional column name
     */
-  protected def toUpdateAssoc[Column](columnNameOption: Option[ColumnName]): Fragment = ???
+  protected def toUpdateAssoc[Column](columnNameOption: Option[ColumnName]): Fragment =
+    fr" (" ++ fr") "
 
 
 }
