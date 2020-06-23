@@ -16,6 +16,13 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.interpreters.
 final class TransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
     extends TransactorFactoryServiceAlgebra[Interpreter.From, Interpreter.To[F]] {
 
+
+  /**
+    * Take configuration and produce transactor.
+    *
+    * @author Nick Odumo (nodumo@nodumo.com)
+    * @param from Configuration object
+    */
   override def create(from: Interpreter.From): Interpreter.To[F] =
     Transactor.fromDriverManager[F](
       from.driver,
