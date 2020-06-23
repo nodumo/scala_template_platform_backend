@@ -1,4 +1,4 @@
-# (λ )Template generator project platform mono-repo 
+# (λ)Template generator project platform mono-repo 
 
 Mono repo for an code generator tool (Work in progress)
 
