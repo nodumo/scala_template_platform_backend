@@ -6,6 +6,15 @@ NPM like platform for storing code-templates (files, packages, constructs, compo
 
 Define generators of your choosing and automate the heck out of your coding tasks. 
 
+# Core libraries 
+
+ - [Cats](https://typelevel.org/cats/)
+ - [Circe](https://circe.github.io/circe/)   
+ - [Doobie](https://tpolecat.github.io/doobie/)   
+ - [HTTPS](https://http4s.org/)
+ - [Monacle](https://www.optics.dev/Monocle/) 
+ - [ZIO](https://zio.dev/)
+
 # Project structure
 * codegeneratorapp/
     * common/
