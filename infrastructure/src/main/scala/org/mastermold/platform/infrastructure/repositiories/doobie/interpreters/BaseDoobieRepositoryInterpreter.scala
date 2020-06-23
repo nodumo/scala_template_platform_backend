@@ -6,7 +6,7 @@ import org.mastermold.platform.domain.definitions.{DomainAggregate, DomainValue}
 import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenColumnList
 
 /**
-  * Base doobie aggregate
+  * Base doobie aggregate repository.
   *
   * @author Nick Odumo (nodumo@nodumo.com)
   * @see Postgress docs. Be mindful of full SQL scans:
