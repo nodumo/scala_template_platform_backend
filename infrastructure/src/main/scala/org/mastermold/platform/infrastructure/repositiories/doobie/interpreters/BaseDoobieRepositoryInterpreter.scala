@@ -19,6 +19,7 @@ abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainA
   val tableName: Fragment
 
   private val tableNameFragment = tableName
+ 
   val selectAllColumnsClause: Fragment =
       fr"SELECT " ++ aggregateGenColumnList.columns ++ tableNameFragment
 
