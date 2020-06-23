@@ -9,6 +9,7 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenC
   * Base doobie aggregate
   *
   * @author Nick Odumo (nodumo@nodumo.com)
+  * @Description Be mindful of full SQL scans!
   * @tparam V Domain values
   * @tparam A Domain aggregate
   */
@@ -17,7 +18,6 @@ abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainA
   val tableName: Fragment
 
   private val tableNameFragment = tableName
-
   val selectAllColumnsClause: Fragment =
       fr"SELECT " ++ aggregateGenColumnList.columns ++ tableNameFragment
 
