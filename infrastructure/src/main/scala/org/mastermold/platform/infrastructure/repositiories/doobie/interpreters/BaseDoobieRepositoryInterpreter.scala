@@ -9,7 +9,7 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenC
   * Base doobie aggregate
   *
   * @author Nick Odumo (nodumo@nodumo.com)
-  * @Description Be mindful of full SQL scans!
+  * @description Be mindful of full SQL scans!
   * @tparam V Domain values
   * @tparam A Domain aggregate
   */
