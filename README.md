@@ -8,12 +8,12 @@ Define generators of your choosing and automate the heck out of your coding task
 
 # Core libraries 
 
- - [Cats](https://typelevel.org/cats/)
- - [Circe](https://circe.github.io/circe/)   
- - [Doobie](https://tpolecat.github.io/doobie/)   
- - [HTTPS](https://http4s.org/)
- - [Monacle](https://www.optics.dev/Monocle/) 
- - [ZIO](https://zio.dev/)
+ - [Cats](https://typelevel.org/cats/) Base typeclasses?
+ - [Circe](https://circe.github.io/circe/) Functional JSON parser
+ - [Doobie](https://tpolecat.github.io/doobie/) Effectful Doobie   
+ - [HTTPS](https://http4s.org/) Pure HTTP DLS
+ - [Monacle](https://www.optics.dev/Monocle/) Pretty lenses 
+ - [ZIO](https://zio.dev/) Effect Monad 
 
 # Project structure
 * codegeneratorapp/
