@@ -9,10 +9,10 @@ Define generators of your choosing and automate the heck out of your coding task
 # Project structure
 * codegeneratorapp/
     * common/
-        * src/
+        * src/ (Generic application kernel)
         * test/
     * bigData/
-        * src/
+        * src/ (TBD - Once enought templates are uploaded a lot features built on a large data set can be worked on)
         * test/
     * domain/ 
         * src/ (Business domain implementation)
