@@ -1,0 +1,40 @@
+version: '3'
+services:
+  app:
+    image: sandbox-laravel-testing
+    working_dir: /webapp/
+    build:
+      context: .
+      dockerfile: ./containers/app/Dockerfile
+    volumes:
+      - bootstrap_cache:/webapp/bootstrap/cache
+      - storage:/webapp/storage
+    depends_on:
+      - db_testing
+
+  storage_elasticsearch:
+    image: mysql:5.7
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      STORAGE_SQL_ROOT_PASSWORD: root
+      STORAGE_SQL_USER: laravel_testing
+      STORAGE_SQL_PASSWORD: laravel_testing
+      STORAGE_SQL_DATABASE: laravel_testing
+
+  storage_sql:
+    image: mysql:5.7
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      STORAGE_SQL_ROOT_PASSWORD: root
+      STORAGE_SQL_USER: laravel_testing
+      STORAGE_SQL_PASSWORD: laravel_testing
+      STORAGE_SQL_DATABASE: laravel_testing
+
+volumes:
+  mysql_data:
+  bootstrap_cache:
+  storage:
