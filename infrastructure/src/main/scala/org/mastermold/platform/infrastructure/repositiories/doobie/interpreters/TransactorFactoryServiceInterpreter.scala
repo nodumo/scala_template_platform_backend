@@ -2,7 +2,7 @@ package org.mastermold.platform.infrastructure.repositiories.doobie.interpreters
 
 import cats.effect.{ Async, ContextShift }
 import doobie.util.transactor.Transactor
-import org.mastermold.platform.infrastructure.repositiories.doobie.{ JDBConfig, TransactorFactoryServiceAlgebra }
+import org.mastermold.platform.infrastructure.repositiories.doobie.{ DoobieDriverConfig, TransactorFactoryServiceAlgebra }
 import org.mastermold.platform.infrastructure.repositiories.doobie.interpreters.{
   TransactorFactoryServiceInterpreter => Interpreter
 }
@@ -28,7 +28,7 @@ final class TransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
 
 object TransactorFactoryServiceInterpreter {
 
-  type From = JDBConfig
+  type From = DoobieDriverConfig
 
   type To[F[_]] = Transactor[F]
 
