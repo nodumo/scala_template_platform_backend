@@ -9,7 +9,8 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenC
   * Base doobie aggregate
   *
   * @author Nick Odumo (nodumo@nodumo.com)
-  * @description Be mindful of full SQL scans!
+  * @see Postgress docs. Be mindful of full SQL scans:
+  *      https://www.postgresql.org/docs/9.1/rules-update.html
   * @tparam V Domain values
   * @tparam A Domain aggregate
   */
