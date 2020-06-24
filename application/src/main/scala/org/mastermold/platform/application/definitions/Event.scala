@@ -13,6 +13,8 @@ trait Event[Content] {
 
   val flowId: FlowId
 
+  // val dateTime: DateTime Joda implementation
+
 }
 
 object Event {
