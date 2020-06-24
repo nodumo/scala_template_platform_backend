@@ -1,9 +1,9 @@
 package org.mastermold.platform.application.definitions
 
 /**
- * Application result.
+ * Application payload.
  *
  * @author Nick Odumo (nodumo@nodumo.com)
- * @param result Result
+ * @param payload Payload
  */
-final case class TransactionResult[Result](result: Result) extends AnyVal
+final case class TransactionResult[Payload](payload: Payload) extends AnyVal

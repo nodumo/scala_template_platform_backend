@@ -6,13 +6,12 @@ package org.mastermold.platform.application.definitions
   * @author Nick Odumo (nodumo@nodumo.com
   * @usecase Modelling the application input
   * @tparam Content    Content to process
-  * @tparam FlowIdRepr Flow id representation
   */
-trait Event[Content, FlowIdRepr] {
+trait Event[Content] {
 
   val content: Content
 
-  val flowId: FlowIdRepr
+  val flowId: FlowId
 
 }
 
@@ -25,7 +24,7 @@ object Event {
     * @param content Content
     * @param flowId  Flow Id
     */
-  final case class Command[Content, FlowIdRepr](content: Content, flowId: FlowIdRepr) extends Event[Content, FlowIdRepr]
+  final case class Command[Content](content: Content, flowId: FlowId) extends Event[Content]
 
   /**
     * Query event.
@@ -34,6 +33,6 @@ object Event {
     * @param content Content
     * @param flowId  Flow Id
     */
-  final case class Query[Content, FlowIdRepr](content: Content, flowId: FlowIdRepr) extends Event[Content, FlowIdRepr]
+  final case class Query[Content](content: Content, flowId: FlowId) extends Event[Content]
 
 }
