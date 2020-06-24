@@ -10,7 +10,7 @@ import org.mastermold.platform.infrastructure.logging.LoggingServiceAlgebra
   * Application Cats-Effect runner.
   *
   * @author Nick Odumo (nodumo@nodumo.com
-  * @tparam F Effect
+  * @tparam F Effect (Cats-effect constrained monad)
   * @tparam InputEvent Input event
   * @tparam DTO Data-transmission objects
   * @param loggingService Logging service
