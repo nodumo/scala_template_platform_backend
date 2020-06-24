@@ -9,8 +9,4 @@ package org.mastermold.platform.application.definitions
   * @tparam InputEvent Input event
   * @tparam DTO Data-transmission objects
   */
-trait IntegrationUsecaseServiceAlgebra[F[_], InputEvent <: Event[_], DTO] {
-
-  def run(command: InputEvent): F[DTO]
-
-}
+trait IntegrationUsecaseServiceAlgebra[F[_], InputEvent <: Event[_], DTO] extends IntegrationServiceAlgebra[F,InputEvent, DTO]
