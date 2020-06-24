@@ -11,11 +11,10 @@ import org.mastermold.platform.application.definitions.{Event, IntegrationRunner
   * @tparam InputEvent Input event
   * @tparam DTO Data-transmission objects
   */
-class IntegrationRunnerServiceCatsEffectInterpreter[F[_] :Async, InputEvent <: Event[_], DTO] extends IntegrationRunnerServiceAlgebra[F, InputEvent, DTO] {
+class IntegrationRunnerServiceCatsEffectInterpreter[F[_]: Async, InputEvent <: Event[_], DTO] extends IntegrationRunnerServiceAlgebra[F, InputEvent, DTO] {
 
   override def runIntegration(integrationService: IntegrationServiceAlgebra[F, InputEvent, DTO])(event: InputEvent): F[Result[DTO]] =
-    ???
-
+    integrationService.execute(event)
 
 }
 
