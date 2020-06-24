@@ -1,6 +1,5 @@
 package org.mastermold.platform.application.definitions
 
-
 /**
   * Application transaction script algebra.
   *

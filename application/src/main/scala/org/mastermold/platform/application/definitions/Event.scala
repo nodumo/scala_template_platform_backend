@@ -5,7 +5,7 @@ package org.mastermold.platform.application.definitions
   *
   * @author Nick Odumo (nodumo@nodumo.com
   * @usecase Modelling the application input
-  * @tparam Content    Content to process
+  * @tparam Content Content to process
   */
 trait Event[Content] {
 
