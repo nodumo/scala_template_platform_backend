@@ -1,4 +1,4 @@
-package org.mastermold.platform.application.libs
+package org.mastermold.platform.application.definitions
 
 /**
  * Transaction context object for a given request.

@@ -1,4 +1,4 @@
-package org.mastermold.platform.application.libs
+package org.mastermold.platform.application.definitions
 
 import org.mastermold.platform.common.logging.ShowLoggable
 
@@ -34,7 +34,7 @@ object TransactionEvent {
    * @param payload Payload to handle with the application
    * @param context Application context
    */
-  final case class ApplicationCommand[Payload, Context] private[libs] (payload: Payload, context: Context)
+  final case class ApplicationCommand[Payload, Context] private[definitions](payload: Payload, context: Context)
       extends TransactionEvent[Payload, Context]
 
   /**
@@ -55,7 +55,7 @@ object TransactionEvent {
    * @param payload Payload to handle with the application
    * @param context Application context
    */
-  final case class ApplicationQuery[Payload, Context] private[libs] (payload: Payload, context: Context)
+  final case class ApplicationQuery[Payload, Context] private[definitions](payload: Payload, context: Context)
       extends TransactionEvent[Payload, Context]
 
   implicit def showLoggable[Payload, Context](

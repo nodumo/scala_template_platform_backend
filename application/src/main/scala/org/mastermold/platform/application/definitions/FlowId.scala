@@ -1,4 +1,4 @@
-package org.mastermold.platform.application.libs
+package org.mastermold.platform.application.definitions
 
 import org.mastermold.platform.common.logging.ShowLoggable
 

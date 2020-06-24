@@ -1,4 +1,4 @@
-package org.mastermold.platform.application.libs
+package org.mastermold.platform.application.definitions
 
 /**
  * Application result.
