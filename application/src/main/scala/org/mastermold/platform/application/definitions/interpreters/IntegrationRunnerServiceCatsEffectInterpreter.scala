@@ -17,17 +17,4 @@ class IntegrationRunnerServiceCatsEffectInterpreter[F[_]: Async, InputEvent <: E
     integrationService.execute(event)
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
