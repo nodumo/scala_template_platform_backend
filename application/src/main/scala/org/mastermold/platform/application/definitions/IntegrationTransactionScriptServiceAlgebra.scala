@@ -8,7 +8,7 @@ package org.mastermold.platform.application.definitions
   * @tparam InputEvent Input event
   * @tparam DTO Data-transmission objects
   */
-trait IntegrationTransactionScriptAlgebra[F[_], InputEvent <: Event[_], DTO] {
+trait IntegrationTransactionScriptServiceAlgebra[F[_], InputEvent <: Event[_], DTO] {
 
   def execute(event: InputEvent): F[DTO]
 
