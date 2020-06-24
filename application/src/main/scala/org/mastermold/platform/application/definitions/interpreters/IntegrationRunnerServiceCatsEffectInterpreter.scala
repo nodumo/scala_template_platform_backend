@@ -7,7 +7,7 @@ import org.mastermold.platform.application.definitions.{Event, IntegrationRunner
   * Application Cats-Effect runner.
   *
   * @author Nick Odumo (nodumo@nodumo.com
-  * @tparam F Effect (Cats-effect constrainer monad)
+  * @tparam F Effect (Cats-effect constrained monad)
   * @tparam InputEvent Input event
   * @tparam DTO Data-transmission objects
   */
