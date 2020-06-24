@@ -1,14 +1,30 @@
-# Template generator project platform mon-repo 
+# (λ)Template generator project platform mono-repo 
 
 Mono repo for an code generator tool (Work in progress)
+
+NPM like platform for storing code-templates (files, packages, constructs, components, etc.)
+
+Define generators of your choosing and automate the heck out of your coding tasks. 
+
+# Core libraries 
+
+ - [Cats](https://typelevel.org/cats/) Base typeclasses?
+ - [Circe](https://circe.github.io/circe/) Functional JSON parser
+ - [Doobie](https://tpolecat.github.io/doobie/) Effectful Doobie   
+ - [HTTPS](https://http4s.org/) Pure HTTP DLS
+ - [Monacle](https://www.optics.dev/Monocle/) Pretty lenses 
+ - [ZIO](https://zio.dev/) Effect Monad 
 
 # Project structure
 * codegeneratorapp/
     * common/
-        * src/
+        * src/ (Generic application kernel)
         * test/
     * bigData/
-        * src/
+        * src/ (TBD - Once enought templates are uploaded a lot features built on a large data set can be worked on)
+        * test/
+    * domain/ 
+        * src/ (Business domain implementation)
         * test/
     * infrastructure/
         * src/
@@ -16,13 +32,13 @@ Mono repo for an code generator tool (Work in progress)
     * project/
         * build.properties
         * plugins.sbt
-   * serverapi/
+   * serverapi/ (HTTP4S api-server)
         * src/
         * test/
    * servercore/
-        * src/
-        * test/
+        * src/ (serialization, server utilities, etc.)
+        * test/      
    * serverstaticwebsites/
-       * src/
+       * src/ (HTTP4S static server for application web-pages)
        * test/
    * build.sbt
