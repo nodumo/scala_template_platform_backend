@@ -4,8 +4,3 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
 
 final case class Team(aggregateId: TeamId) extends DomainAggregate[TeamId]
 
-object Team {
-
-  type Repr = String
-
-}
