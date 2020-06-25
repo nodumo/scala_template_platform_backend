@@ -1,6 +1,5 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.models.account
 
-
 import org.mastermold.platform.domain.definitions.DomainValue
 
 final case class SecurityQuestion2(value: SecurityQuestion2.Repr) extends DomainValue
