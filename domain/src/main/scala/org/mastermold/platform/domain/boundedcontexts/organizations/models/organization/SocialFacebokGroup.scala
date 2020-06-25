@@ -3,9 +3,9 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.orga
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class SocialFacebokPageGroup(value: SocialFacebokPageGroup.Repr) extends DomainValue
+final case class SocialFacebokGroup(value: SocialFacebokGroup.Repr) extends DomainValue
 
-object SocialFacebokPageGroup {
+object SocialFacebokGroup {
 
   type Repr = String
 
