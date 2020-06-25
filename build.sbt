@@ -52,6 +52,9 @@ lazy val domain = project
     libraryDependencies := ProjectDependencies.domainDependencies
   )
   .disablePlugins(AssemblyPlugin)
+  .dependsOn(
+    common
+  )
 
 lazy val bigData = project
   .settings(
