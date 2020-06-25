@@ -134,7 +134,7 @@ object ProjectDependencies {
     Seq(cats, scalaSpec2, shapeless, z)
 
   lazy val domainDependencies: Seq[ModuleID] =
-    baseDependencies ++ Seq(monocleCore)
+    baseDependencies ++ Seq(monocleCore, monocleMacro )
 
   lazy val infrastructureDependencies: Seq[ModuleID] =
     Seq(delightNashorn, doobieCore,   http4SCirce, http4SDSL,http4SBlazeClient,  http4SBlazeServer, scalaSpec2, zio )

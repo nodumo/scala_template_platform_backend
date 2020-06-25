@@ -1,5 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.models.team
 
+import org.mastermold.platform.domain.boundedcontexts.organizations.models.shared.IsTwoFactorMandatory
 import org.mastermold.platform.domain.definitions.DomainAggregate
 
 /**
@@ -17,10 +18,12 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
   * @author Nick Odumo (nodumo@nodumo.com)
   * @param aggregateId Aggregate id
   * @param description Description of the Organization
+  * @param isTwoFactorMandatory   Is two-factor authentication enabled
   * @param name        Team name
   */
 final case class Team(aggregateId: TeamId,
                       description: Description,
+                      isTwoFactorMandatory: IsTwoFactorMandatory,
                       name: Name) extends DomainAggregate[TeamId]
 
 object Team {}
