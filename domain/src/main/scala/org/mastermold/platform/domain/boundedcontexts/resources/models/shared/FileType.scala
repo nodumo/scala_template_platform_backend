@@ -24,7 +24,6 @@ object FileType {
 
   case object Png extends FileType("png")
 
-
   // --- Typed: Code
 
   case object A extends FileType("jpg")
