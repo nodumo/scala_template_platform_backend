@@ -6,7 +6,7 @@ import org.mastermold.platform.domain.definitions.{
 }
 
 /**
-  * PersonId repository algebra.
+  * Person repository algebra.
   *
   * @author Nick Odumo (nodumowebdev@gmail.com)
   * @tparam F         Effect 

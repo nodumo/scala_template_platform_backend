@@ -6,7 +6,7 @@ import org.mastermold.platform.domain.definitions.{
 }
 
 /**
-  * OrganizationId repository algebra.
+  * Organization repository algebra.
   *
   * @author Nick Odumo (nodumowebdev@gmail.com)
   * @tparam F               Effect 
