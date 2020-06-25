@@ -1,4 +1,4 @@
-package org.mastermold.platform.domain.boundedcontexts.organizations.respositories.organization
+package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.organization
 
 import org.mastermold.platform.domain.definitions.{
   DomainAggregate,
