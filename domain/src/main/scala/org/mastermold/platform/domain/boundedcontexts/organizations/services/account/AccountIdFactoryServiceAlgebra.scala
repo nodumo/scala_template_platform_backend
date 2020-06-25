@@ -2,4 +2,4 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.services.ac
 
 import org.mastermold.platform.common.softwarepatterns.FactoryServiceEffectfulAlgebra
 
-trait FactoryAccountIdServiceAlgebra[F[_], Repr, Aggregate] extends FactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
+trait AccountIdFactoryServiceAlgebra[F[_], Repr, Aggregate] extends FactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
