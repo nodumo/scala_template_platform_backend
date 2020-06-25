@@ -42,3 +42,6 @@ Define generators of your choosing and automate the heck out of your coding task
        * src/ (HTTP4S static server for application web-pages)
        * test/
    * build.sbt
+   
+## Maintainers
+- [Nick Odumo](https://github.com/nodumo) 
