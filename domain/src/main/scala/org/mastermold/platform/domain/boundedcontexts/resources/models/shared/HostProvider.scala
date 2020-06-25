@@ -1,7 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.models.shared
 
 import java.util.UUID
-
 import cats.Eq
 import org.mastermold.platform.domain.definitions.DomainValue
 
