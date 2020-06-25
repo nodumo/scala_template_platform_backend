@@ -1,4 +1,4 @@
-package org.mastermold.platform.domain.contexts.resources.models.shared
+package org.mastermold.platform.domain.boundedcontexts.resources.models.shared
 
 sealed abstract class FileType(val extension: String)
 

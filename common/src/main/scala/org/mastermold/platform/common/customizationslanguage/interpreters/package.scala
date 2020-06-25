@@ -1,5 +1,3 @@
 package org.mastermold.platform.common.customizationslanguage
 
-package object interpreters {
-
-}
+package object interpreters {}

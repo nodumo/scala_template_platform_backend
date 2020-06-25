@@ -1,5 +1,3 @@
 package org.mastermold.platform.common.customizationslibraries
 
-package object joda {
-
-}
+package object joda {}

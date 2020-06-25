@@ -1,5 +1,3 @@
 package org.mastermold.platform.common.customizationslanguage
 
-trait JavaSQLDateTimeCalculateWeeksBehindServiceAlgebra {
-
-}
+trait JavaSQLDateTimeCalculateWeeksBehindServiceAlgebra {}
