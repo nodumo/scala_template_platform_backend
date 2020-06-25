@@ -2,5 +2,5 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.services.ac
 
 import org.mastermold.platform.common.softwarepatterns.FactoryServiceEffectfulAlgebra
 
-trait SecurityQuestionAnswer2FactoryServiceAlgebra[F[_], Repr, Aggregate] extends FactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
+trait SecurityQuestionAnswer2FactoryServiceAlgebra[F[_], Repr, Value] extends FactoryServiceEffectfulAlgebra[F, Repr, Value]
  
