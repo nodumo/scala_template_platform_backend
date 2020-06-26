@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue
  * @author Nick Odumo (nodumowebdev@gmail.com)
  * @tparam F                     Effect
  * @tparam  ArtifactAccessPassId ArtifactAccessPassId to persist
- * @tparam  ArtifactAccessPass   ArtifactAccessPass id to persist
+ * @tparam  ArtifactAccessPass   ArtifactAccessPass to persist
  */
 trait ArtifactAccessPassRepositoryAlgebra[
     F[_], ArtifactAccessPassId <: DomainValue, ArtifactAccessPass[_] <: DomainAggregate[ArtifactAccessPassId]] {

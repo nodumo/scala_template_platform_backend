@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue
  * @author Nick Odumo (nodumowebdev@gmail.com)
  * @tparam F       Effect
  * @tparam  TeamId TeamId to persist
- * @tparam  Team   Team id to persist
+ * @tparam  Team   Team to persist
  */
 trait TeamRepositoryAlgebra[F[_], TeamId <: DomainValue, Team[_] <: DomainAggregate[TeamId]] {
 
