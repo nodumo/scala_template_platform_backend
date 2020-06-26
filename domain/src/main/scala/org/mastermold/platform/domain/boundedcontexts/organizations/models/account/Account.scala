@@ -42,16 +42,16 @@ object Account {
 
   // Lenses: Mutable fields
 
-  val credentialEmailLens: Lens[Account, CredentialEmail] = GenLens[Account](_.credentialEmail)
-  val credentialUsernameLens: Lens[Account, CredentialUsername] = GenLens[Account](_.credentialUsername)
-  val credentialPasswordLens: Lens[Account, Password] = GenLens[Account](_.password)
+  private [domain] val credentialEmailLens: Lens[Account, CredentialEmail] = GenLens[Account](_.credentialEmail)
+  private [domain] val credentialUsernameLens: Lens[Account, CredentialUsername] = GenLens[Account](_.credentialUsername)
+  private [domain] val credentialPasswordLens: Lens[Account, Password] = GenLens[Account](_.password)
 
-  val securityQuestion1Lens: Lens[Account, SecurityQuestion1] = GenLens[Account](_.securityQuestion1)
-  val securityQuestion2Lens: Lens[Account, SecurityQuestion2] = GenLens[Account](_.securityQuestion2)
-  val securityQuestion3Lens: Lens[Account, SecurityQuestion3] = GenLens[Account](_.securityQuestion3)
+  private [domain] val securityQuestion1Lens: Lens[Account, SecurityQuestion1] = GenLens[Account](_.securityQuestion1)
+  private [domain] val securityQuestion2Lens: Lens[Account, SecurityQuestion2] = GenLens[Account](_.securityQuestion2)
+  private [domain] val securityQuestion3Lens: Lens[Account, SecurityQuestion3] = GenLens[Account](_.securityQuestion3)
 
-  val securityQuestionAnswer1Lens: Lens[Account, SecurityQuestionAnswer1] = GenLens[Account](_.securityQuestionAnswer1)
-  val securityQuestionAnswer2Lens: Lens[Account, SecurityQuestionAnswer2] = GenLens[Account](_.securityQuestionAnswer2)
-  val securityQuestionAnswer3Lens: Lens[Account, SecurityQuestionAnswer3] = GenLens[Account](_.securityQuestionAnswer3)
+  private [domain] val securityQuestionAnswer1Lens: Lens[Account, SecurityQuestionAnswer1] = GenLens[Account](_.securityQuestionAnswer1)
+  private [domain] val securityQuestionAnswer2Lens: Lens[Account, SecurityQuestionAnswer2] = GenLens[Account](_.securityQuestionAnswer2)
+  private [domain] val securityQuestionAnswer3Lens: Lens[Account, SecurityQuestionAnswer3] = GenLens[Account](_.securityQuestionAnswer3)
 
 }

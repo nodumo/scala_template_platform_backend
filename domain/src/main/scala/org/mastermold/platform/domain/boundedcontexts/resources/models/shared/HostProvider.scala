@@ -4,7 +4,6 @@ import java.util.UUID
 import cats.Eq
 import org.mastermold.platform.domain.definitions.DomainValue
 
-
 /**
   * Host provider.
   *
@@ -17,9 +16,13 @@ object HostProvider {
 
   type Repr = UUID
 
+  // --- Sum-types
+
   case object Cloudinary extends HostProvider(UUID.fromString("eadbd230-7359-44a6-a5e1-7b0792af653b"))
 
   case object S3 extends HostProvider(UUID.fromString("9d1139bf-a9d9-43e3-8b37-a015fd0d964f"))
+
+  // --- Instances
 
   implicit def eqCats(implicit eqReprCats: Eq[Repr]): Eq[HostProvider] = new Eq[HostProvider] {
 
