@@ -15,8 +15,7 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.GenAggregateC
  * @tparam A Domain aggregate
  */
 abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainAggregate[V]](
-    implicit aggregateGenColumnList: GenAggregateColumnList[A[V]])
-    extends SQLClauseWhereInterpreter {
+    implicit aggregateGenColumnList: GenAggregateColumnList[A[V]]) {
 
   protected val tableName: Fragment
 
