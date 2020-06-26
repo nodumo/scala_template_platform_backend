@@ -4,10 +4,10 @@ import cats.effect.{ Async, ContextShift }
 import doobie.util.transactor.Transactor
 import org.mastermold.platform.infrastructure.repositiories.doobie.{
   DoobieDriverConfig,
-  TransactorFactoryServiceAlgebra
+  DoobieTransactorFactoryServiceAlgebra
 }
 import org.mastermold.platform.infrastructure.repositiories.doobie.interpreters.{
-  TransactorFactoryServiceInterpreter => Interpreter
+  DoobieTransactorFactoryServiceInterpreter => Interpreter
 }
 
 /**
@@ -16,8 +16,8 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.interpreters.
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F Effect
  */
-final class TransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
-    extends TransactorFactoryServiceAlgebra[Interpreter.From, Interpreter.To[F]] {
+final class DoobieTransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
+    extends DoobieTransactorFactoryServiceAlgebra[Interpreter.From, Interpreter.To[F]] {
 
   /**
    * Take configuration and produce transactor.
@@ -35,13 +35,13 @@ final class TransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
 
 }
 
-object TransactorFactoryServiceInterpreter {
+object DoobieTransactorFactoryServiceInterpreter {
 
   type From = DoobieDriverConfig
 
   type To[F[_]] = Transactor[F]
 
-  def apply[F[_]: ContextShift: Async]: TransactorFactoryServiceInterpreter[F] =
-    new TransactorFactoryServiceInterpreter()
+  def apply[F[_]: ContextShift: Async]: DoobieTransactorFactoryServiceInterpreter[F] =
+    new DoobieTransactorFactoryServiceInterpreter()
 
 }

@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.repositiories.doobie.interpreters
 import doobie.implicits._
 import doobie.util.fragment.Fragment
 import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
-import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenColumnList
+import org.mastermold.platform.infrastructure.repositiories.doobie.GenAggregateColumnList
 
 /**
  * Base doobie aggregate repository.
@@ -15,8 +15,8 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.AggregateGenC
  * @tparam A Domain aggregate
  */
 abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainAggregate[V]](
-    implicit aggregateGenColumnList: AggregateGenColumnList[A[V]])
-    extends WhereClauseMixinPostgresFragmentInterpreter {
+    implicit aggregateGenColumnList: GenAggregateColumnList[A[V]])
+    extends SQLClauseWhereInterpreter {
 
   protected val tableName: Fragment
 
@@ -34,26 +34,6 @@ abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainA
    fr"UPDATE " ++ tableNameFragment ++ fr" SET "
 
    // --- Structured clause
-
-
-   /**
- * Generate assoc clause for update statement.
- *
- * @author Nick Odumo (nodumo@nodumo.com)
- * @tparam Column Column type
- * @param columnNameOption Optional column name
  */
-   protected def toInsertTuple[Column](columnNameOption: Option[ColumnName]): Fragment =
-     fr" (" ++ fr") "
 
-   /**
- * Generate assoc clause for update statement.
- *
- * @author Nick Odumo (nodumo@nodumo.com)
- * @tparam Column Column type
- * @param columnNameOption Optional column name
- */
-   protected def toUpdateAssoc[Column](columnNameOption: Option[ColumnName]): Fragment =
-     fr" (" ++ fr") "
- */
 }

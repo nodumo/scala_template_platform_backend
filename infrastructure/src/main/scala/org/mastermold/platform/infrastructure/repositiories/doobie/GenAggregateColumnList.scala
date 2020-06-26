@@ -3,6 +3,7 @@ package org.mastermold.platform.infrastructure.repositiories.doobie
 import doobie.implicits._
 import doobie.util.fragment.Fragment
 import org.mastermold.platform.common.typelevel.CaseClassKeys
+import org.mastermold.platform.domain.definitions.DomainAggregate
 
 /**
  * Get column list for the aggregate object.
@@ -10,16 +11,17 @@ import org.mastermold.platform.common.typelevel.CaseClassKeys
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam Aggregate Aggregate column list
  */
-trait AggregateGenColumnList[Aggregate] {
+trait GenAggregateColumnList[Aggregate <: DomainAggregate[_]] {
 
   def columns: Fragment
 
 }
 
-object AggregateGenColumnList {
+object GenAggregateColumnList {
 
-  implicit def apply[C](implicit attributes: CaseClassKeys[C]): AggregateGenColumnList[C] =
-    new AggregateGenColumnList[C] {
+  implicit def apply[Aggregate <: DomainAggregate[_]](
+      implicit attributes: CaseClassKeys[Aggregate]): GenAggregateColumnList[Aggregate] =
+    new GenAggregateColumnList[Aggregate] {
       override def columns: Fragment = fr"${attributes.fieldNames.mkString(",")}"
     }
 
