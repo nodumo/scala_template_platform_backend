@@ -1,11 +1,11 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.models.shared
 
 /**
-  * Extension values.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @param extension Extension value
-  */
+ * Extension values.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @param extension Extension value
+ */
 sealed abstract class FileType(val extension: String)
 
 object FileType {

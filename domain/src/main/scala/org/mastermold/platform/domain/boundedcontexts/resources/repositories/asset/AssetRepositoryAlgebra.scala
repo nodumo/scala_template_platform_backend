@@ -1,27 +1,25 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.repositories.asset
 
-import org.mastermold.platform.domain.definitions.{
-  DomainAggregate,
-  DomainValue
-}
+import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
 
 /**
-  * Asset repository algebra.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @tparam F        Effect 
-  * @tparam  AssetId AssetId to persist  
-  * @tparam  Asset   Asset id to persist 
-  */
+ * Asset repository algebra.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @tparam F        Effect
+ * @tparam  AssetId AssetId to persist
+ * @tparam  Asset   Asset id to persist
+ */
 trait AssetRepositoryAlgebra[F[_], AssetId <: DomainValue, Asset[_] <: DomainAggregate[AssetId]] {
 
-  def createNewAsset(asset: Asset): F[Asset]
+  type AssetAggregate = Asset[AssetId]
 
-  def retrieveAssetById(assetId: Asset): F[Option[Asset]]
+  def createNewAsset(asset: AssetAggregate): F[AssetAggregate]
 
-  def updateExistingAsset(asset: Asset): F[Option[Asset]]
+  def retrieveAssetById(assetId: AssetId): F[Option[AssetAggregate]]
+
+  def updateExistingAsset(asset: AssetAggregate): F[Option[AssetAggregate]]
 
   def deleteAssetById(assetId: AssetId): F[Unit]
 
 }
- 

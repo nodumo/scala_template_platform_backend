@@ -1,15 +1,16 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.models.shared
 
 import java.util.UUID
+
 import cats.Eq
 import org.mastermold.platform.domain.definitions.DomainValue
 
 /**
-  * Host provider.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @param value Foreign table value
-  */
+ * Host provider.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @param value Foreign table value
+ */
 sealed abstract class HostProvider(val value: HostProvider.Repr) extends DomainValue
 
 object HostProvider {

@@ -5,8 +5,6 @@ import cats.effect.Effect
 import org.http4s.rho.swagger.SwaggerSyntax
 import org.http4s.rho.{PathBuilder, RhoService}
 import org.http4s.{EntityDecoder, Uri}
-import org.mastermold.platform.servercore.Models
-import org.mastermold.platform.servercore.Models.ResponseMessage
 import shapeless.HNil
 
 object PetRoutes {

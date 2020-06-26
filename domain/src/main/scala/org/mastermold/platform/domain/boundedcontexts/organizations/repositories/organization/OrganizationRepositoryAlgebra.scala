@@ -1,27 +1,26 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.organization
 
-import org.mastermold.platform.domain.definitions.{
-  DomainAggregate,
-  DomainValue
-}
+import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
 
 /**
-  * Organization repository algebra.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @tparam F               Effect 
-  * @tparam  OrganizationId OrganizationId to persist  
-  * @tparam  Organization   Organization id to persist 
-  */
-trait OrganizationRepositoryAlgebra[F[_], OrganizationId <: DomainValue, Organization[_] <: DomainAggregate[OrganizationId]] {
+ * Organization repository algebra.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @tparam F               Effect
+ * @tparam  OrganizationId OrganizationId to persist
+ * @tparam  Organization   Organization id to persist
+ */
+trait OrganizationRepositoryAlgebra[
+    F[_], OrganizationId <: DomainValue, Organization[_] <: DomainAggregate[OrganizationId]] {
 
-  def createNewOrganization(organization: Organization): F[Organization]
+  type OrganizationAggregate = Organization[OrganizationId]
 
-  def retrieveOrganizationById(organizationId: Organization): F[Option[Organization]]
+  def createNewOrganization(organization: OrganizationAggregate): F[OrganizationAggregate]
 
-  def updateExistingOrganization(organization: Organization): F[Option[Organization]]
+  def retrieveOrganizationById(organizationId: OrganizationId): F[Option[OrganizationAggregate]]
+
+  def updateExistingOrganization(organization: OrganizationAggregate): F[Option[OrganizationAggregate]]
 
   def deleteOrganizationById(organizationId: OrganizationId): F[Unit]
 
 }
- 

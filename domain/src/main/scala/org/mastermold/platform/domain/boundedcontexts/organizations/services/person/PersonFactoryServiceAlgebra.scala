@@ -3,4 +3,3 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.services.pe
 import org.mastermold.platform.common.softwarepatterns.FactoryServiceEffectfulAlgebra
 
 trait PersonFactoryServiceAlgebra[F[_], Repr, Aggregate] extends FactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
- 

@@ -5,11 +5,11 @@ import java.util.UUID
 import org.mastermold.platform.domain.definitions.DomainValue
 
 /**
-  * Pass type for the resource
-  *
-  * @author Nick Odumo (nodumo@nodumo.com
-  * @param value Foreign key.
-  */
+ * Pass type for the resource
+ *
+ * @author Nick Odumo (nodumo@nodumo.com
+ * @param value Foreign key.
+ */
 sealed abstract class PassType(val value: PassType.Repr) extends DomainValue
 
 object PassType {

@@ -108,7 +108,7 @@ lazy val serverapi = project
     name := "serverapi",
     settings,
     assemblySettings,
-    libraryDependencies := ProjectDependencies.applicationserverapiDependencies
+    libraryDependencies := ProjectDependencies.serverApiDependencies
   )
   .dependsOn(
     application,
@@ -122,7 +122,7 @@ lazy val servercore = project
     name := "servercore",
     settings,
     assemblySettings,
-    libraryDependencies := ProjectDependencies.applicationservercoreDependencies
+    libraryDependencies := ProjectDependencies.serverCoreDependencies
   )
   .dependsOn(
     application,
@@ -134,7 +134,7 @@ lazy val serverstaticwebsites = project
     name := "serverstaticwebsites",
     settings,
     assemblySettings,
-    libraryDependencies := ProjectDependencies.applicationServerCoreStaticSiteDependencies
+    libraryDependencies := ProjectDependencies.serverStaticSitesDependencies
   )
   .dependsOn(
     application,

@@ -1,27 +1,26 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.repositories.artifactfile
 
-import org.mastermold.platform.domain.definitions.{
-  DomainAggregate,
-  DomainValue
-}
+import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
 
 /**
-  * ArtifactFile repository algebra.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @tparam F               Effect 
-  * @tparam  ArtifactFileId ArtifactFileId to persist  
-  * @tparam  ArtifactFile   ArtifactFile id to persist 
-  */
-trait ArtifactFileRepositoryAlgebra[F[_], ArtifactFileId <: DomainValue, ArtifactFile[_] <: DomainAggregate[ArtifactFileId]] {
+ * ArtifactFile repository algebra.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @tparam F               Effect
+ * @tparam  ArtifactFileId ArtifactFileId to persist
+ * @tparam  ArtifactFile   ArtifactFile id to persist
+ */
+trait ArtifactFileRepositoryAlgebra[
+    F[_], ArtifactFileId <: DomainValue, ArtifactFile[_] <: DomainAggregate[ArtifactFileId]] {
 
-  def createNewArtifactFile(artifactFile: ArtifactFile): F[ArtifactFile]
+  type ArtifactFileAggregate = ArtifactFile[ArtifactFileId]
 
-  def retrieveArtifactFileById(artifactFileId: ArtifactFile): F[Option[ArtifactFile]]
+  def createNewArtifactFile(artifactFile: ArtifactFileAggregate): F[ArtifactFileAggregate]
 
-  def updateExistingArtifactFile(artifactFile: ArtifactFile): F[Option[ArtifactFile]]
+  def retrieveArtifactFileById(artifactFileId: ArtifactFileId): F[Option[ArtifactFileAggregate]]
+
+  def updateExistingArtifactFile(artifactFile: ArtifactFileAggregate): F[Option[ArtifactFileAggregate]]
 
   def deleteArtifactFileById(artifactFileId: ArtifactFileId): F[Unit]
 
 }
- 

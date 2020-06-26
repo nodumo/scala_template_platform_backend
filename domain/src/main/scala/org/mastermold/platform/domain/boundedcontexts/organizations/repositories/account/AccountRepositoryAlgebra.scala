@@ -1,27 +1,25 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.account
 
-import org.mastermold.platform.domain.definitions.{
-  DomainAggregate,
-  DomainValue
-}
+import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
 
 /**
-  * Account repository algebra.
-  *
-  * @author Nick Odumo (nodumowebdev@gmail.com)
-  * @tparam F          Effect 
-  * @tparam  AccountId AccountId to persist  
-  * @tparam  Account   Account id to persist 
-  */
+ * Account repository algebra.
+ *
+ * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @tparam F          Effect
+ * @tparam  AccountId AccountId to persist
+ * @tparam  Account   Account id to persist
+ */
 trait AccountRepositoryAlgebra[F[_], AccountId <: DomainValue, Account[_] <: DomainAggregate[AccountId]] {
 
-  def createNewAccount(account: Account): F[Account]
+  type AccountAggregate = Account[AccountId]
 
-  def retrieveAccountById(accountId: Account): F[Option[Account]]
+  def createNewAccount(account: AccountAggregate): F[AccountAggregate]
 
-  def updateExistingAccount(account: Account): F[Option[Account]]
+  def retrieveAccountById(accountId: AccountId): F[Option[AccountAggregate]]
+
+  def updateExistingAccount(account: AccountId): F[Option[AccountAggregate]]
 
   def deleteAccountById(accountId: AccountId): F[Unit]
 
 }
- 
