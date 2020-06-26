@@ -20,10 +20,8 @@ object Asset {
 
   // Lenses: Mutable fields
 
-  val aggregateIdLens: Lens[Asset, AssetId] = GenLens[Asset](_.aggregateId)
- 
-  val descriptionLens: Lens[Asset, Description] = GenLens[Asset](_.description)
- 
+  val aggregateIdLens: Lens[Asset, AssetId] = GenLens[Asset](_.aggregateId) 
+  val descriptionLens: Lens[Asset, Description] = GenLens[Asset](_.description)  
   val nameLens: Lens[Asset, Name] = GenLens[Asset](_.name)
 
 }
