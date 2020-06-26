@@ -60,7 +60,7 @@ object ProjectDependencies {
 
   private lazy val http4sBlazeClient = "org.http4s" %% "http4s-blaze-client" % http4sVersion % "it,test"
 
-  private lazy val http4sDependencies = Seq(http4sBlazeServer, http4sCirce, http4sDSL, http4sBlazeClient)
+  private lazy val http4sDependencies = Seq(http4sBlazeServer, http4sCirce, http4sDSL/*, http4sBlazeClient*/)
 
   private lazy val jodaScalaLib = "com.github.nscala-time" %% "nscala-time" % "2.24.0"
 

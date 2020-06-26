@@ -1,3 +1,7 @@
 package org.mastermold.platform.infrastructure.repositiories.doobie.instances
 
-trait JavaInstances {}
+package object domain {
+
+  object all
+
+}

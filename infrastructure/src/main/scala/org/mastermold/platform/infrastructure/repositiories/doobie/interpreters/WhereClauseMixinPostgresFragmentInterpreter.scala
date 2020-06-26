@@ -47,10 +47,6 @@ trait WhereClauseMixinPostgresFragmentInterpreter extends WhereClauseMixinFragme
   /**
    * Where greater than.
    *
-   * @example {{{
-   *      columnName > columnValue
-   * }}}
-   *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @tparam Column Column type
    * @param columnNameOption Optional column name
@@ -60,10 +56,6 @@ trait WhereClauseMixinPostgresFragmentInterpreter extends WhereClauseMixinFragme
 
   /**
    * Where greater than or equal to.
-   *
-   * @example {{{
-   *      columnName <= columnValue
-   * }}}
    *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @tparam Column Column type
@@ -75,10 +67,6 @@ trait WhereClauseMixinPostgresFragmentInterpreter extends WhereClauseMixinFragme
   /**
    * Where less than or equal to.
    *
-   * @example {{{
-   *      columnName < columnValue
-   * }}}
-   *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @tparam Column Column type
    * @param columnNameOption Optional column name
@@ -88,10 +76,6 @@ trait WhereClauseMixinPostgresFragmentInterpreter extends WhereClauseMixinFragme
 
   /**
    * Where less than or equal to.
-   *
-   * @example {{{
-   *      columnName >= columnValue
-   * }}}
    *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @param columnNameOption Optional column name

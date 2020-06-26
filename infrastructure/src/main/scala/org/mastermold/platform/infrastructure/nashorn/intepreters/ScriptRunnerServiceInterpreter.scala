@@ -1,8 +1,11 @@
 package org.mastermold.platform.infrastructure.nashorn.intepreters
 
 import java.io.StringWriter
+
 import delight.nashornsandbox.NashornSandbox
 import java.util.concurrent.ExecutorService
+
+import cats.effect.Sync
 import org.mastermold.platform.infrastructure.nashorn.{
   DelightResult,
   JavascriptSource,
@@ -10,23 +13,27 @@ import org.mastermold.platform.infrastructure.nashorn.{
   ScriptRunnerServiceAlgebra
 }
 import org.mastermold.platform.infrastructure.nashorn.intepreters.{ ScriptRunnerServiceInterpreter => Interpreter }
-import zio.{ IO, Task }
 
 /**
  * Script runner service interpreter.
  *
  * @author Nick Odumo (nodumo@nodumo.com)
- * @usecase ZIO Script runner service
- * @param executorService Executor service
+ * @usecase Effectful Script runner service
+ *          Uses effect type-classes from Cats, may at some point switch to some other effect
+ *          system
+ * @todo Investigate the use of some sort of logging effect so that
+ *       the input script can be adequately described
+ * @tparam F Side-effect capturing monad
+ * @param executorService       Executor service
  * @param nashornFactoryService Nashorn factory service
  */
-final class ScriptRunnerServiceInterpreter(
+final class ScriptRunnerServiceInterpreter[F[_]: Sync](
     executorService: ExecutorService,
     nashornFactoryService: NashornFactoryServiceAlgebra[Interpreter.ScriptFactoryFrom, Interpreter.ScriptFactoryTo])
-    extends ScriptRunnerServiceAlgebra[Interpreter.F, Interpreter.ScriptSourceFrom, Interpreter.ScriptResultTo] {
+    extends ScriptRunnerServiceAlgebra[F, Interpreter.ScriptSourceFrom, Interpreter.ScriptResultTo] {
 
-  override def runScript(scriptSource: Interpreter.ScriptSourceFrom): Interpreter.F[Interpreter.ScriptResultTo] =
-    IO.apply {
+  override def runScript(scriptSource: Interpreter.ScriptSourceFrom): F[Interpreter.ScriptResultTo] =
+    implicitly[Sync[F]].delay {
       val scriptRunner         = nashornFactoryService.create(executorService)
       val scriptRunnerBindings = scriptRunner.createBindings()
       val stringWriter         = new StringWriter()
@@ -42,8 +49,6 @@ final class ScriptRunnerServiceInterpreter(
 }
 
 object ScriptRunnerServiceInterpreter {
-
-  type F[A] = Task[A]
 
   type ScriptFactoryFrom = ExecutorService
 

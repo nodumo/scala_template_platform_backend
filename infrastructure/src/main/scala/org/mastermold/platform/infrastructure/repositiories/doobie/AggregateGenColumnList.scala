@@ -12,7 +12,7 @@ import org.mastermold.platform.common.typelevel.CaseClassKeys
  */
 trait AggregateGenColumnList[Aggregate] {
 
-  def columns(implicit attributes: CaseClassKeys[Aggregate]): Fragment
+  def columns: Fragment
 
 }
 
@@ -20,7 +20,7 @@ object AggregateGenColumnList {
 
   implicit def apply[C](implicit attributes: CaseClassKeys[C]): AggregateGenColumnList[C] =
     new AggregateGenColumnList[C] {
-      override def columns(implicit attributes: CaseClassKeys[C]): Fragment = fr"${attributes.fieldNames.mkString(",")}"
+      override def columns: Fragment = fr"${attributes.fieldNames.mkString(",")}"
     }
 
 }

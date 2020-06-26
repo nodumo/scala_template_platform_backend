@@ -10,11 +10,11 @@ package object instances {
 
   // --- Instances: Every instance possible
 
-  private[doobie] object all extends JavaInstances
+  private[doobie] object all
 
   // --- Instances: Java
 
-  private[doobie] object javaInstances extends JavaInstances
+  private[doobie] object javaInstances
 
   // --- Instances: Domain/templates
 
