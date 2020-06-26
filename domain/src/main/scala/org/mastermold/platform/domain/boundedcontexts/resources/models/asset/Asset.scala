@@ -1,5 +1,7 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.models.asset
 
+import monocle.Lens
+import monocle.macros.GenLens
 import org.mastermold.platform.domain.definitions.DomainAggregate
 
 /**
@@ -16,5 +18,10 @@ final case class Asset(aggregateId: AssetId,
 
 object Asset {
 
+  // Lenses: Mutable fields
+
+  val aggregateIdLens: Lens[Asset, AssetId] = GenLens[Asset](_.aggregateId)
+  val descriptionLens: Lens[Asset, AssetId] = GenLens[Asset](_.aggregateId)
+  val nameLens: Lens[Asset, Name] = GenLens[Asset](_.name)
 
 }

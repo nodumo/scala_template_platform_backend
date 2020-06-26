@@ -2,9 +2,9 @@ package org.mastermold.platform.domain.boundedcontexts.resources.models.artifact
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class ArtifactIdImage(value: ArtifactIdImage.Repr) extends DomainValue
+final case class ArtifactImageId(value: ArtifactImageId.Repr) extends DomainValue
 
-object ArtifactIdImage {
+object ArtifactImageId {
 
   type Repr = String
 
