@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue
  * @author Nick Odumo (nodumowebdev@gmail.com)
  * @tparam F          Effect
  * @tparam  AccountId AccountId to persist
- * @tparam  Account   Account id to persist
+ * @tparam  Account   Account to persist
  */
 trait AccountRepositoryAlgebra[F[_], AccountId <: DomainValue, Account[_] <: DomainAggregate[AccountId]] {
 
