@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.orga
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class DeclaredPersonnelCount(value: DeclaredPersonnelCount.Repr) extends DomainValue
+final case class DeclaredPersonnelCount private[domain] (value: DeclaredPersonnelCount.Repr) extends DomainValue
 
 object DeclaredPersonnelCount {
 

@@ -19,7 +19,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
   * @param socialFacebookPage     Facebook pages id
   * @param socialTwitterHandle    Twitter handle
   */
-final case class Organization(
+final case class Organization private[domain](
                                aggregateId: OrganizationId,
                                declaredPersonnelCount: DeclaredPersonnelCount,
                                description: Description,

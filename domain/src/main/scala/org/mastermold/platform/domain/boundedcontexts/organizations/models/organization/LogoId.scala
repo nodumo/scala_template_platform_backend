@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.orga
 import java.util.UUID
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class LogoId(value: LogoId.Repr) extends DomainValue
+final case class LogoId private[domain] (value: LogoId.Repr) extends DomainValue
 
 object LogoId {
 

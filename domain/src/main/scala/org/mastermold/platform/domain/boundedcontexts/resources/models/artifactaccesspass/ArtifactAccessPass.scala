@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.resources.models.artifact
 
 import org.mastermold.platform.domain.definitions.DomainAggregate
 
-final case class ArtifactAccessPass(aggregateId: ArtifactAccessPassId) extends DomainAggregate[ArtifactAccessPassId]
+final case class ArtifactAccessPass private[domain](aggregateId: ArtifactAccessPassId) extends DomainAggregate[ArtifactAccessPassId]
 
 object ArtifactAccessPass {
 

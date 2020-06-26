@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.boundedcontexts.resources.models.artifact
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class ArtifactFileId(value: ArtifactFileId.Repr) extends DomainValue
+final case class ArtifactFileId private[domain] (value: ArtifactFileId.Repr) extends DomainValue
 
 object ArtifactFileId {
 

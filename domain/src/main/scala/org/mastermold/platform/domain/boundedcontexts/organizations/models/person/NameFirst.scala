@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.pers
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class NameFirst(value: NameFirst.Repr) extends DomainValue
+final case class NameFirst private[domain] (value: NameFirst.Repr) extends DomainValue
 
 object NameFirst {
 

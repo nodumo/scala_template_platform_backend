@@ -21,7 +21,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
   * @param securityQuestionAnswer2 Security question answer 2
   * @param securityQuestionAnswer3 Security question answer 3
   */
-final case class Account private(aggregateId: AccountId,
+final case class Account private[domain](aggregateId: AccountId,
                                  // Allow the possibility of different authentication bearers
                                  credentialEmail: CredentialEmail,
                                  credentialUsername: CredentialUsername,

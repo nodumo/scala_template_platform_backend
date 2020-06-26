@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.resources.models.artifact
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class AccessCode(value: AccessCode.Repr) extends DomainValue
+final case class AccessCode private[domain] (value: AccessCode.Repr) extends DomainValue
 
 object AccessCode {
 

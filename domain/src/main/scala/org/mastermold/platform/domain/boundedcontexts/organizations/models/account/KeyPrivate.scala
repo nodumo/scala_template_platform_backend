@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.acco
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class KeyPrivate(value: KeyPrivate.Repr) extends DomainValue
+final case class KeyPrivate private[domain] (value: KeyPrivate.Repr) extends DomainValue
 
 object KeyPrivate {
 

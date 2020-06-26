@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.pers
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class DateOfBirth(value: DateOfBirth.Repr) extends DomainValue
+final case class DateOfBirth private[domain] (value: DateOfBirth.Repr) extends DomainValue
 
 object DateOfBirth {
 

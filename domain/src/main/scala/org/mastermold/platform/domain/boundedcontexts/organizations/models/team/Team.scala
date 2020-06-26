@@ -21,7 +21,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
   * @param isTwoFactorMandatory   Is two-factor authentication enabled
   * @param name        Team name
   */
-final case class Team(aggregateId: TeamId,
+final case class Team private[domain] (aggregateId: TeamId,
                       description: Description,
                       isTwoFactorMandatory: IsTwoFactorMandatory,
                       name: Name) extends DomainAggregate[TeamId]

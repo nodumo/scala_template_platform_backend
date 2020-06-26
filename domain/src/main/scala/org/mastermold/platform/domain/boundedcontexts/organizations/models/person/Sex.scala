@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.pers
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class Sex(value: Sex.Repr) extends DomainValue
+final case class Sex private[domain] (value: Sex.Repr) extends DomainValue
 
 object Sex {
 

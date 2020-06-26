@@ -2,7 +2,7 @@ package org.mastermold.platform.domain.boundedcontexts.organizations.models.acco
 
 import org.mastermold.platform.domain.definitions.DomainValue
 
-final case class CredentialUsername(value: CredentialUsername.Repr) extends DomainValue
+final case class CredentialUsername private[domain] (value: CredentialUsername.Repr) extends DomainValue
 
 object CredentialUsername {
 
