@@ -24,4 +24,8 @@ package object instances {
 
   private[doobie] object domain
 
+  // --- Instances: Libraries
+
+  private[doobie] object libraries
+
 }
