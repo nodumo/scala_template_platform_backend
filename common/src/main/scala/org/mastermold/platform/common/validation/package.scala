@@ -1,6 +1,6 @@
 package org.mastermold.platform.common
 
-import cats.{ ApplicativeError, MonadError }
+import cats.ApplicativeError
 import cats.data.{ NonEmptyList, Validated }
 
 package object validation {

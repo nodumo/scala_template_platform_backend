@@ -12,13 +12,13 @@ import org.mastermold.platform.common.validation.interpreters.{
 }
 
 /**
- * String application validation service.
- *
- * @author Nick Odumo (nodumo@nodumo.com).
- * @tparam F Monad-error
- */
-final class StringValidationApplicationEntitiesServiceInterpreter[F[_]: ApplicativeErrorValidationError]
-    extends ValidationServiceApplicativeErrorInterpreter[F]
+  * String application validation service.
+  *
+  * @author Nick Odumo (nodumo@nodumo.com).
+  * @tparam F Applicative error
+  */
+final class StringValidationApplicationEntitiesServiceInterpreter[F[_] : ApplicativeErrorValidationError]
+  extends ValidationServiceApplicativeErrorInterpreter[F]
     with ValidationServiceStringMixinInterpreter[F, ValidationError]
     with StringValidationApplicationEntitiesServiceAlgebra[F] {
 
@@ -43,17 +43,17 @@ final class StringValidationApplicationEntitiesServiceInterpreter[F[_]: Applicat
 
 object StringValidationApplicationEntitiesServiceInterpreter {
 
-  private val Invalid_application_username = "Invalid_application_username"
+  private[common] val Invalid_application_username = "Invalid_application_username"
 
-  private val Invalid_application_password = "Invalid_application_password"
+  private[common] val Invalid_application_password = "Invalid_application_password"
 
-  private val Invalid_application_entity_title = "Invalid_application_entity_title"
+  private[common] val Invalid_application_entity_title = "Invalid_application_entity_title"
 
-  private val Invalid_application_empty_string = "Invalid_application_empty_string"
+  private[common] val Invalid_application_empty_string = "Invalid_application_empty_string"
 
-  private val Invalid_application_not_empty_string = "Invalid_application_not_empty_string"
+  private[common] val Invalid_application_not_empty_string = "Invalid_application_not_empty_string"
 
-  val rawErrorMessages: ErrorMessagesCollection = Set(
+  private[common] val rawErrorMessages: ErrorMessagesCollection = Set(
     Invalid_application_username,
     Invalid_application_password,
     Invalid_application_entity_title,
@@ -61,7 +61,7 @@ object StringValidationApplicationEntitiesServiceInterpreter {
     Invalid_application_not_empty_string
   )
 
-  def apply[F[_]: ApplicativeErrorValidationError]: StringValidationApplicationEntitiesServiceInterpreter[F] =
+  def apply[F[_] : ApplicativeErrorValidationError]: StringValidationApplicationEntitiesServiceInterpreter[F] =
     new StringValidationApplicationEntitiesServiceInterpreter()
 
 }

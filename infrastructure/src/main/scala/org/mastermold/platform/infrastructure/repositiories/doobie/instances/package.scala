@@ -12,10 +12,16 @@ package object instances {
 
   private[doobie] object all
 
-  // --- Instances: Java
+  // --- Instances: project
 
-  private[doobie] object javaInstances
+  private[doobie] object common
+
+  // --- Instances: Java/Scala
+
+  private[doobie] object language
 
   // --- Instances: Domain/templates
+
+  private[doobie] object domain
 
 }
