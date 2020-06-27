@@ -1,0 +1,317 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "common",
+        "directory": "F:\\Projects\\multiplatform\\common",
+        "workspaceDir": "F:\\Projects\\multiplatform",
+        "sources": [
+            "F:\\Projects\\multiplatform\\common\\src\\main\\scala-2.12",
+            "F:\\Projects\\multiplatform\\common\\src\\main\\scala",
+            "F:\\Projects\\multiplatform\\common\\src\\main\\java",
+            "F:\\Projects\\multiplatform\\common\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1.jar",
+            "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-reflect.jar",
+            "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6.jar"
+        ],
+        "out": "F:\\Projects\\multiplatform\\.bloop\\common",
+        "classesDir": "F:\\Projects\\multiplatform\\.bloop\\common\\scala-2.12\\classes",
+        "resources": [
+            "F:\\Projects\\multiplatform\\common\\src\\main\\resources",
+            "F:\\Projects\\multiplatform\\common\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.3",
+            "options": [
+                "-deprecation",
+                "-encoding",
+                "utf-8",
+                "-explaintypes",
+                "-feature",
+                "-language:existentials",
+                "-language:experimental.macros",
+                "-language:higherKinds",
+                "-language:implicitConversions",
+                "-unchecked",
+                "-Xcheckinit",
+                "-Xfatal-warnings",
+                "-Xfuture",
+                "-Xlint:adapted-args",
+                "-Xlint:by-name-right-associative",
+                "-Xlint:constant",
+                "-Xlint:delayedinit-select",
+                "-Xlint:doc-detached",
+                "-Xlint:inaccessible",
+                "-Xlint:infer-any",
+                "-Xlint:missing-interpolator",
+                "-Xlint:nullary-override",
+                "-Xlint:nullary-unit",
+                "-Xlint:option-implicit",
+                "-Xlint:package-object-classes",
+                "-Xlint:poly-implicit-overload",
+                "-Xlint:private-shadow",
+                "-Xlint:stars-align",
+                "-Xlint:type-parameter-shadow",
+                "-Xlint:unsound-match",
+                "-Yno-adapted-args",
+                "-Ypartial-unification",
+                "-Ywarn-dead-code",
+                "-Ywarn-extra-implicit",
+                "-Ywarn-inaccessible",
+                "-Ywarn-infer-any",
+                "-Ywarn-nullary-override",
+                "-Ywarn-nullary-unit",
+                "-Ywarn-numeric-widen",
+                "-Ywarn-unused:implicits",
+                "-Ywarn-unused:imports",
+                "-Ywarn-unused:locals",
+                "-Ywarn-unused:params",
+                "-Ywarn-unused:patvars",
+                "-Ywarn-unused:privates",
+                "-Ywarn-value-discard"
+            ],
+            "jars": [
+                "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\jline.jar",
+                "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-compiler.jar",
+                "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar",
+                "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-reflect.jar",
+                "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-xml_2.12.jar"
+            ],
+            "analysis": "F:\\Projects\\multiplatform\\common\\target\\streams\\compile\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk1.8.0_161\\jre",
+                "options": [
+                    "-Duser.dir=F:\\Projects\\multiplatform"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.12",
+                    "version": "1.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1-sources.jar"
+                        },
+                        {
+                            "name": "cats-core_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "1.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1-javadoc.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-macros_2.12",
+                    "version": "1.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-macros_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1.jar"
+                        },
+                        {
+                            "name": "cats-macros_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1-javadoc.jar"
+                        },
+                        {
+                            "name": "cats-macros_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.3\\scala-reflect-2.12.3-javadoc.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.3\\scala-reflect-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-javadoc.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "machinist_2.12",
+                    "version": "0.6.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "machinist_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6.jar"
+                        },
+                        {
+                            "name": "machinist_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6-sources.jar"
+                        },
+                        {
+                            "name": "machinist_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.3",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-javadoc.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

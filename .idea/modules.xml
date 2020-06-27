@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application.iml" filepath="$PROJECT_DIR$/.idea/modules/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bigData.iml" filepath="$PROJECT_DIR$/.idea/modules/bigData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructureintegrations.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructureintegrations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lambda.iml" filepath="$PROJECT_DIR$/.idea/modules/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform.iml" filepath="$PROJECT_DIR$/.idea/modules/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-build.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverapi.iml" filepath="$PROJECT_DIR$/.idea/modules/serverapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servercore.iml" filepath="$PROJECT_DIR$/.idea/modules/servercore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverstaticwebsites.iml" filepath="$PROJECT_DIR$/.idea/modules/serverstaticwebsites.iml" />
+    </modules>
+  </component>
+</project>
