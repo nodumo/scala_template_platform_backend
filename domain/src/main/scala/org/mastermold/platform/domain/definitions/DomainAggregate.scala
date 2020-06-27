@@ -6,7 +6,7 @@ package org.mastermold.platform.domain.definitions
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam AggregateId Base aggregate id
  */
-trait DomainAggregate[AggregateId] {
+trait DomainAggregate[AggregateId] extends DomainEntity {
 
   val aggregateId: AggregateId
 
