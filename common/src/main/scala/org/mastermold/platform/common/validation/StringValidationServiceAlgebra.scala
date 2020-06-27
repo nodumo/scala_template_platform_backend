@@ -1,15 +1,14 @@
 package org.mastermold.platform.common.validation
 
-import scala.util.matching.Regex
-
 /**
- * String length validation service algebra.
- *
- * @author Nick Odumo (nodumo@nodumo.com)
- * @tparam F Effect
- */
-trait StringValidationServiceAlgebra[F[_]] {
-  
+  * String length validation service algebra.
+  *
+  * @author Nick Odumo (nodumo@nodumo.com)
+  * @tparam F      Effect
+  * @tparam RegexT Regular expression representation
+  */
+trait StringValidationServiceAlgebra[F[_], RegexT] {
+
   /**
     * Validate that the string is longer than.
     *
@@ -32,9 +31,9 @@ trait StringValidationServiceAlgebra[F[_]] {
     * Validate that the string is longer than.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
-    * @param regex Regular  expression to test.
+    * @param regex  Regular  expression to test.
     * @param string String to test
     */
-  def isMatchingRegex(regex: Regex)(string: String): F[String]
+  def isMatchingRegex(regex: RegexT)(string: String): F[String]
 
 }
