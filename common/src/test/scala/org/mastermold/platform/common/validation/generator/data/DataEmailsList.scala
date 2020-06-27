@@ -1,4 +1,4 @@
-package org.mastermold.platform.common.validation.generator
+package org.mastermold.platform.common.validation.generator.data
 
 object DataEmailsList {
 
