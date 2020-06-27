@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.team
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * Team repository algebra.
@@ -14,12 +14,12 @@ trait TeamRepositoryAlgebra[F[_], TeamId <: DomainValue, Team[_] <: DomainAggreg
 
   type TeamAggregate = Team[TeamId]
 
-  def createNewTeam(team: TeamAggregate): F[TeamAggregate]
+  def createNewTeam(team: CheckedInvariant[TeamAggregate]): F[TeamAggregate]
 
-  def retrieveTeamById(teamId: TeamId): F[Option[TeamAggregate]]
+  def retrieveTeamById(teamId: CheckedInvariant[TeamId]): F[Option[TeamAggregate]]
 
-  def updateExistingTeam(team: TeamAggregate): F[Option[TeamAggregate]]
+  def updateExistingTeam(team: CheckedInvariant[TeamAggregate]): F[Option[TeamAggregate]]
 
-  def deleteTeamById(teamId: TeamId): F[Unit]
+  def deleteTeamById(teamId: CheckedInvariant[TeamId]): F[Unit]
 
 }

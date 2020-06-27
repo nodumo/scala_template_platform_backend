@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.repositories.asset
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * Asset repository algebra.
@@ -14,12 +14,12 @@ trait AssetRepositoryAlgebra[F[_], AssetId <: DomainValue, Asset[_] <: DomainAgg
 
   type AssetAggregate = Asset[AssetId]
 
-  def createNewAsset(asset: AssetAggregate): F[AssetAggregate]
+  def createNewAsset(asset: CheckedInvariant[AssetAggregate]): F[AssetAggregate]
 
-  def retrieveAssetById(assetId: AssetId): F[Option[AssetAggregate]]
+  def retrieveAssetById(assetId: CheckedInvariant[AssetId]): F[Option[AssetAggregate]]
 
-  def updateExistingAsset(asset: AssetAggregate): F[Option[AssetAggregate]]
+  def updateExistingAsset(asset: CheckedInvariant[AssetAggregate]): F[Option[AssetAggregate]]
 
-  def deleteAssetById(assetId: AssetId): F[Unit]
+  def deleteAssetById(assetId: CheckedInvariant[AssetId]): F[Unit]
 
 }

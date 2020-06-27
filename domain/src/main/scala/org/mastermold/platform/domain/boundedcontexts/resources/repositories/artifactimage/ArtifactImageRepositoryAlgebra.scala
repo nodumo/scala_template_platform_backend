@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.repositories.artifactimage
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * ArtifactImage repository algebra.
@@ -15,12 +15,13 @@ trait ArtifactImageRepositoryAlgebra[
 
   type ArtifactImageAggregate = ArtifactImage[ArtifactImageId]
 
-  def createNewArtifactImage(artifactImage: ArtifactImageAggregate): F[ArtifactImageAggregate]
+  def createNewArtifactImage(artifactImage: CheckedInvariant[ArtifactImageAggregate]): F[ArtifactImageAggregate]
 
-  def retrieveArtifactImageById(artifactImageId: ArtifactImageId): F[Option[ArtifactImageAggregate]]
+  def retrieveArtifactImageById(artifactImageId: CheckedInvariant[ArtifactImageId]): F[Option[ArtifactImageAggregate]]
 
-  def updateExistingArtifactImage(artifactImage: ArtifactImageAggregate): F[Option[ArtifactImageAggregate]]
+  def updateExistingArtifactImage(
+      artifactImage: CheckedInvariant[ArtifactImageAggregate]): F[Option[ArtifactImageAggregate]]
 
-  def deleteArtifactImageById(artifactImageId: ArtifactImageAggregate): F[Unit]
+  def deleteArtifactImageById(artifactImageId: CheckedInvariant[ArtifactImageAggregate]): F[Unit]
 
 }

@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.resources.repositories.artifactfile
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * ArtifactFile repository algebra.
@@ -15,12 +15,13 @@ trait ArtifactFileRepositoryAlgebra[
 
   type ArtifactFileAggregate = ArtifactFile[ArtifactFileId]
 
-  def createNewArtifactFile(artifactFile: ArtifactFileAggregate): F[ArtifactFileAggregate]
+  def createNewArtifactFile(artifactFile: CheckedInvariant[ArtifactFileAggregate]): F[ArtifactFileAggregate]
 
-  def retrieveArtifactFileById(artifactFileId: ArtifactFileId): F[Option[ArtifactFileAggregate]]
+  def retrieveArtifactFileById(artifactFileId: CheckedInvariant[ArtifactFileId]): F[Option[ArtifactFileAggregate]]
 
-  def updateExistingArtifactFile(artifactFile: ArtifactFileAggregate): F[Option[ArtifactFileAggregate]]
+  def updateExistingArtifactFile(
+      artifactFile: CheckedInvariant[ArtifactFileAggregate]): F[Option[ArtifactFileAggregate]]
 
-  def deleteArtifactFileById(artifactFileId: ArtifactFileId): F[Unit]
+  def deleteArtifactFileById(artifactFileId: CheckedInvariant[ArtifactFileId]): F[Unit]
 
 }

@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.organization
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * Organization repository algebra.
@@ -15,12 +15,13 @@ trait OrganizationRepositoryAlgebra[
 
   type OrganizationAggregate = Organization[OrganizationId]
 
-  def createNewOrganization(organization: OrganizationAggregate): F[OrganizationAggregate]
+  def createNewOrganization(organization: CheckedInvariant[OrganizationAggregate]): F[OrganizationAggregate]
 
-  def retrieveOrganizationById(organizationId: OrganizationId): F[Option[OrganizationAggregate]]
+  def retrieveOrganizationById(organizationId: CheckedInvariant[OrganizationId]): F[Option[OrganizationAggregate]]
 
-  def updateExistingOrganization(organization: OrganizationAggregate): F[Option[OrganizationAggregate]]
+  def updateExistingOrganization(
+      organization: CheckedInvariant[OrganizationAggregate]): F[Option[OrganizationAggregate]]
 
-  def deleteOrganizationById(organizationId: OrganizationId): F[Unit]
+  def deleteOrganizationById(organizationId: CheckedInvariant[OrganizationId]): F[Unit]
 
 }

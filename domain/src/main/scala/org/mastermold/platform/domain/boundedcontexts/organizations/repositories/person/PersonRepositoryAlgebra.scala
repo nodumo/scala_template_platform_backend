@@ -1,6 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.repositories.person
 
-import org.mastermold.platform.domain.definitions.{ DomainAggregate, DomainValue }
+import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggregate, DomainValue }
 
 /**
  * Person repository algebra.
@@ -14,12 +14,12 @@ trait PersonRepositoryAlgebra[F[_], PersonId <: DomainValue, Person[_] <: Domain
 
   type PersonAggregate = Person[PersonId]
 
-  def createNewPerson(person: PersonAggregate): F[PersonAggregate]
+  def createNewPerson(person: CheckedInvariant[PersonAggregate]): F[PersonAggregate]
 
-  def retrievePersonById(personId: PersonId): F[Option[PersonAggregate]]
+  def retrievePersonById(personId: CheckedInvariant[PersonId]): F[Option[PersonAggregate]]
 
-  def updateExistingPerson(person: PersonAggregate): F[Option[PersonAggregate]]
+  def updateExistingPerson(person: CheckedInvariant[PersonAggregate]): F[Option[PersonAggregate]]
 
-  def deletePersonById(personId: PersonId): F[Unit]
+  def deletePersonById(personId: CheckedInvariant[PersonId]): F[Unit]
 
 }

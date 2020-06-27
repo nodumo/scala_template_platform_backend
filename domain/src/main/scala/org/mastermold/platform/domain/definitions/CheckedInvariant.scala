@@ -7,4 +7,4 @@ package org.mastermold.platform.domain.definitions
  * @tparam A Domain entity
  * @param value Domain entity.
  */
-final case class Invariant[A <: DomainEntity] private[domain] (value: A) extends AnyVal
+final case class CheckedInvariant[A <: DomainEntity] private[domain] (value: A) extends AnyVal
