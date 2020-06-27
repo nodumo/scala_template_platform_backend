@@ -26,7 +26,7 @@ trait StringValidationCreditCardServiceAlgebra[F[_]] {
   def validateCreditCardDiscoverCardNumber(string: String): F[String]
 
   /**
-    * Validate credit-card master card number.
+    * Validate credit-card Mastercard number.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
     * @param string String to test
@@ -34,7 +34,7 @@ trait StringValidationCreditCardServiceAlgebra[F[_]] {
   def validateCreditCardMasterCardNumber(string: String): F[String]
 
   /**
-    * Validate credit-card visa number.
+    * Validate credit-card Visa number.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
     * @param string String to test
@@ -42,7 +42,7 @@ trait StringValidationCreditCardServiceAlgebra[F[_]] {
   def validateCreditCardVisaNumber(string: String): F[String]
 
   /**
-    * Validate credit-card visa mastercard number.
+    * Validate credit-card Visa Mastercard number.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
     * @param string String to test
@@ -50,7 +50,7 @@ trait StringValidationCreditCardServiceAlgebra[F[_]] {
   def validateCreditCardVisaMasterCardNumber(string: String): F[String]
 
   /**
-    * Validate credit-card union pay card code.
+    * Validate credit-card Union Pay Card code.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
     * @param string String to test
