@@ -8,11 +8,6 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @see https://www.postgresqltutorial.com/postgresql-time/
  *      https://docs.yugabyte.com/v1.2/api/ysql/datatypes/type_datetime/
- * @example {{{
- *
- *  val checkedTimezString = CheckedTimezString("12:00:00")
- *
- * }}}
  * @param value Value
  */
 final case class CheckedTimeString private[validation] (value: CheckedTimeString.Repr) extends AnyVal

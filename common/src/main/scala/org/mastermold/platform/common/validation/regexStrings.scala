@@ -3,6 +3,7 @@ package org.mastermold.platform.common.validation
 import scala.util.matching.Regex
 
 object regexStrings {
+  
   // --- Alpha
 
   private[validation] val alpha: Regex                       = "^[a-zA-Z]*$".r

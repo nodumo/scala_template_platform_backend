@@ -7,8 +7,8 @@ import scala.util.matching.Regex
 /**
  * Validation string utilities.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
- * @tparam F Effect
+ * @author Nick Odumo (nodumo@nodumo.com)*
+ * @tparam F Validation effect
  * @tparam E Error type
  */
 trait ValidationServiceStringMixinInterpreter[F[_], E] { this: ValidationServiceAlgebra[F, E] =>
