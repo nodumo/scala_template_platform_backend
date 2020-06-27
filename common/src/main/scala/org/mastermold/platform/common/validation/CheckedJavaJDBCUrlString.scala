@@ -1,7 +1,7 @@
 package org.mastermold.platform.common.validation
 
 /**
- * Java JDBC URL string.
+ * JDBC Driver Connection URL.
  *
  * @author Nick Odumo (nodumo@nodumo.com)
  * @param value Value

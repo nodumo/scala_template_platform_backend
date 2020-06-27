@@ -18,7 +18,7 @@ import org.mastermold.platform.common.validation.interpreters.{
  * @author Nick Odumo (nodumo@nodumo.com)
  * @usecase Validating Credit Card values for the commerce related domains.
  *         It is important that we hide the credit card values from the log.
- * @tparam F Monad-error
+ * @tparam F Effect
  */
 final class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]

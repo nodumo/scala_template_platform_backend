@@ -9,7 +9,7 @@ package org.mastermold.platform.common.validation
  * @tparam DateFormatYYYYMMDD Format YYYYMMDD
  * @tparam DateTimeFormatYYYYMMDDHHMISS Format YYYYMMDDHHMISS
  */
-trait StringValidationDateParsingEffectServiceAlgebra[F[_], DateFormatYYYYMMDD, DateTimeFormatYYYYMMDDHHMISS] {
+trait StringParsingDateEffectServiceAlgebra[F[_], DateFormatYYYYMMDD, DateTimeFormatYYYYMMDDHHMISS] {
 
   def parseDateFormatYYYYMMDD(string: String): F[DateFormatYYYYMMDD]
 
