@@ -20,13 +20,21 @@ scalaVersion in ThisBuild := "2.12.3"
 
 lazy val global = project
   .in(file("."))
-  .settings(settings)
+  .settings(settings ++ flyAwaySettings)
   .disablePlugins(AssemblyPlugin)
   .aggregate(
+    application,
     common,
+    domain,
     bigData,
-    infrastructure
+    infrastructure,
+    infrastructureintegrations,
+    lambda,
+    serverapi,
+    servercore,
+    serverstaticwebsites
   )
+  .enablePlugins(FlywayPlugin)
 
 lazy val application = project
   .settings(
@@ -172,6 +180,17 @@ lazy val scalafmtSettings =
     scalafmtOnCompile := true,
     scalafmtTestOnCompile := true,
     scalafmtVersion := "1.2.0"
+  )
+
+lazy val flyAwaySettings =
+  Seq(
+    flywayUrl := "jdbc:hsqldb:file:target/flyway_sample;shutdown=true",
+    flywayUser := "SA",
+    flywayPassword := "",
+    flywayLocations += "db/migration",
+    flywayUrl in Test := "jdbc:hsqldb:file:target/flyway_sample;shutdown=true",
+    flywayUser in Test := "SA",
+    flywayPassword in Test := ""
   )
 
 lazy val assemblySettings = Seq(

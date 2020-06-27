@@ -25,6 +25,7 @@ abstract class BaseDoobieRepositoryInterpreter[V <: DomainValue, A[_] <: DomainA
 
   protected val selectAllColumnsClause: Fragment =
   fr"SELECT " ++ aggregateGenColumnList.columns ++ tableNameFragment
+
   /*
    protected val insertIntoColumnClause: Fragment = ???
    // fr"INSERT INTO (" ++ aggregateGenColumnList.columns ++ fr") " ++ tableNameFragment

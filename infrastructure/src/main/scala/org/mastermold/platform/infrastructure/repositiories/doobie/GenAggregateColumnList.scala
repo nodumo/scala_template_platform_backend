@@ -22,7 +22,7 @@ object GenAggregateColumnList {
   implicit def apply[Aggregate <: DomainAggregate[_]](
       implicit attributes: CaseClassKeys[Aggregate]): GenAggregateColumnList[Aggregate] =
     new GenAggregateColumnList[Aggregate] {
-      override def columns: Fragment = fr"${attributes.fieldNames.mkString(",")}"
+      override def columns: Fragment = fr" ${attributes.fieldNames.mkString(",")} "
     }
 
 }

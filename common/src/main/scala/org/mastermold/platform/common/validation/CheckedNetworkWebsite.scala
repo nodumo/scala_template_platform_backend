@@ -6,10 +6,10 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @param value Value
  */
-final case class CheckedNetworkWebsiteString private[validation] (value: CheckedNetworkWebsiteString.Repr)
+final case class CheckedNetworkWebsite private[validation](value: CheckedNetworkWebsite.Repr)
     extends AnyVal
 
-object CheckedNetworkWebsiteString {
+object CheckedNetworkWebsite {
 
   type Repr = String
 
