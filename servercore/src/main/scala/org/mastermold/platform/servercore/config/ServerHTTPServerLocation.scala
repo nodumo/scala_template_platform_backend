@@ -1,6 +1,6 @@
 package org.mastermold.platform.servercore.config
 
-import org.mastermold.platform.common.validation.{CheckedHostLocation, CheckedHostPort}
+import org.mastermold.platform.common.validation.{CheckedNetworkHostLocation, CheckedNetworkHostPort}
 
 /**
   * Sever HTTP server location.
@@ -9,4 +9,4 @@ import org.mastermold.platform.common.validation.{CheckedHostLocation, CheckedHo
   * @param location Server host location address
   * @param port     Server host port
   */
-final case class ServerHTTPServerLocation private[config](location: CheckedHostLocation, port: CheckedHostPort)
+final case class ServerHTTPServerLocation private[config](location: CheckedNetworkHostLocation, port: CheckedNetworkHostPort)

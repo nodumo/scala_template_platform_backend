@@ -6,9 +6,9 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @param value Value
  */
-final case class CheckedJavaJDBCUrlString private[validation] (value: CheckedJavaJDBCUrlString.Repr) extends AnyVal
+final case class CheckedNetworkJavaJDBCUrlString private[validation](value: CheckedNetworkJavaJDBCUrlString.Repr) extends AnyVal
 
-object CheckedJavaJDBCUrlString {
+object CheckedNetworkJavaJDBCUrlString {
 
   type Repr = String
 

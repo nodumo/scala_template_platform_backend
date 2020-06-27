@@ -14,7 +14,7 @@ package object instances {
 
   // --- Instances: project
 
-  private[doobie] object CommonInstances
+  private[doobie] object common
 
   // --- Instances: Java/Scala
 

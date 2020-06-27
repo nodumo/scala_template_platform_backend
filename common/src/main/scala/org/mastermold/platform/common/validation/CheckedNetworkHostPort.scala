@@ -6,9 +6,9 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @param value Value
  */
-final case class CheckedHostPort private[validation] (value: CheckedHostPort.Repr) extends AnyVal
+final case class CheckedNetworkHostPort private[validation](value: CheckedNetworkHostPort.Repr) extends AnyVal
 
-object CheckedHostPort {
+object CheckedNetworkHostPort {
 
   type Repr = String
 
