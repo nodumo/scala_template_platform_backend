@@ -1,5 +1,6 @@
 package org.mastermold.platform.domain.boundedcontexts.organizations.services.person
 
-import org.mastermold.platform.common.softwarepatterns.FactoryServiceEffectfulAlgebra
+import org.mastermold.platform.domain.definitions.{ DomainEntity, DomainEntityFactoryServiceEffectfulAlgebra }
 
-trait PersonFactoryServiceAlgebra[F[_], Repr, Aggregate] extends FactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
+trait PersonFactoryServiceAlgebra[F[_], Repr, Aggregate <: DomainEntity]
+    extends DomainEntityFactoryServiceEffectfulAlgebra[F, Repr, Aggregate]
