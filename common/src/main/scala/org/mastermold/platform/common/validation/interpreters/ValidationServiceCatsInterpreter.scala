@@ -44,7 +44,7 @@ abstract class ValidationServiceCatsInterpreter[F[_]](implicit monadApplicative:
     if (bool) success(entity) else failure(validationError)
 
   /**
-    * Validated with condition.
+    * Validated with predicate application.
     *
     * @author Nick Odumo (nodumo@nodumo.com)
     * @tparam Entity Value
