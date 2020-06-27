@@ -3,13 +3,13 @@ package org.mastermold.platform.common.validation.interpreters
 import org.mastermold.platform.common.validation.{
   regexStrings,
   ErrorMessagesCollection,
-  MonadErrorValidationError,
-  StringCreditCardValidationServiceAlgebra,
+  ApplicativeErrorValidationError,
+  StringValidationCreditCardServiceAlgebra,
   ValidationError
 }
 
 import org.mastermold.platform.common.validation.interpreters.{
-  StringCreditCardValidationCatsInterpreter => Interpreters
+  StringValidationCreditCardApplicativeErrorInterpreter => Interpreters
 }
 
 /**
@@ -20,10 +20,10 @@ import org.mastermold.platform.common.validation.interpreters.{
  *         It is important that we hide the credit card values from the log.
  * @tparam F Monad-error
  */
-final class StringCreditCardValidationCatsInterpreter[F[_]: MonadErrorValidationError]
-    extends ValidationServiceCatsInterpreter[F]
+final class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
+    extends ValidationServiceApplicativeErrorInterpreter[F]
     with ValidationServiceStringMixinInterpreter[F, ValidationError]
-    with StringCreditCardValidationServiceAlgebra[F] {
+    with StringValidationCreditCardServiceAlgebra[F] {
 
   override def validateCreditCardMasterAmexNumber(string: String): F[String] =
     validateRegex(regexStrings.creditCardMasterAmexNumber, string)(
@@ -51,7 +51,7 @@ final class StringCreditCardValidationCatsInterpreter[F[_]: MonadErrorValidation
 
 }
 
-object StringCreditCardValidationCatsInterpreter {
+object StringValidationCreditCardApplicativeErrorInterpreter {
 
   private val Invalid_credit_card_master_amex_number = "Invalid_credit_card_master_amex_number"
 
@@ -75,7 +75,7 @@ object StringCreditCardValidationCatsInterpreter {
       Invalid_credit_card_unioncard_pay_card_code
     )
 
-  def apply[F[_]: MonadErrorValidationError]: StringCreditCardValidationCatsInterpreter[F] =
-    new StringCreditCardValidationCatsInterpreter()
+  def apply[F[_]: ApplicativeErrorValidationError]: StringValidationCreditCardApplicativeErrorInterpreter[F] =
+    new StringValidationCreditCardApplicativeErrorInterpreter()
 
 }

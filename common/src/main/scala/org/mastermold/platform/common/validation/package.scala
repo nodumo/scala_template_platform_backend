@@ -9,7 +9,7 @@ package object validation {
 
   type ErrorMessagesCollection = Set[String]
 
-  type MonadErrorValidationError[F[_]] = MonadError[F, ValidationError]
+  type ApplicativeErrorValidationError[F[_]] = ApplicativeError[F, ValidationError]
 
   type NonEmptyListValidationError = NonEmptyList[ValidationError]
 

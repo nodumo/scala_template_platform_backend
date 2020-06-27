@@ -10,7 +10,7 @@ import org.mastermold.platform.common.validation.{Predicate, ValidationError, Va
  * @tparam F Effect
  * @param monadApplicative Monad error
  */
-abstract class ValidationServiceCatsInterpreter[F[_]](implicit monadApplicative: ApplicativeError[F, ValidationError])
+abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](implicit monadApplicative: ApplicativeError[F, ValidationError])
     extends ValidationServiceAlgebra[F, ValidationError] {
 
   /**

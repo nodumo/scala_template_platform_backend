@@ -13,8 +13,8 @@ final class StringCreditCardValidationCatsInterpreterTest extends Specification 
                                                                  """
 
   private def spec1: MatchResult[ErrorMessagesCollection] =
-    StringCreditCardValidationCatsInterpreter.rawErrorMessages must have size 6
+    StringValidationCreditCardApplicativeErrorInterpreter.rawErrorMessages must have size 6
 
   private def spec2: MatchResult[ErrorMessagesCollection] =
-    StringCreditCardValidationCatsInterpreter.rawErrorMessages must have size 6
+    StringValidationCreditCardApplicativeErrorInterpreter.rawErrorMessages must have size 6
 }

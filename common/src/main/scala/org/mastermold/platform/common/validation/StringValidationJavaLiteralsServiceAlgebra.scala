@@ -6,4 +6,4 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F Effect
  */
-trait StringJavaValidationServiceAlgebra[F[_]] {}
+trait StringValidationJavaLiteralsServiceAlgebra[F[_]] {}

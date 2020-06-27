@@ -1,12 +1,12 @@
 package org.mastermold.platform.common.validation
 
 /**
- * Sequence validation algebra.
+ * String date format validation algebra.
  *
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F Effect
  */
-trait StringDateValidationServiceAlgebra[F[_]] {
+trait StringValidationDateServiceAlgebra[F[_]] {
 
   def validateDateFormatYYYYMMDD(string: String): F[String]
 

@@ -1,6 +1,6 @@
 package org.mastermold.platform.common.validation
 
-trait StringCorrespondenceValidationServiceAlgebra[F[_]] {
+trait StringValidationCorrespondenceServiceAlgebra[F[_]] {
 
   def phoneNumber7DigitDecimals(string: String): F[String]
 

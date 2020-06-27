@@ -7,7 +7,7 @@ package org.mastermold.platform.common.validation
  * @usecase Validating credit-card related values
  * @tparam F Effect
  */
-trait StringCreditCardValidationServiceAlgebra[F[_]] {
+trait StringValidationCreditCardServiceAlgebra[F[_]] {
 
   def validateCreditCardMasterAmexNumber(string: String): F[String]
 

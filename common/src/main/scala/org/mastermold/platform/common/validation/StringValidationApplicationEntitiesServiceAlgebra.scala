@@ -6,7 +6,7 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F Effect
  */
-trait StringApplicationValidationServiceAlgebra[F[_]] {
+trait StringValidationApplicationEntitiesServiceAlgebra[F[_]] {
 
   def applicationUsername(string: String): F[String]
 

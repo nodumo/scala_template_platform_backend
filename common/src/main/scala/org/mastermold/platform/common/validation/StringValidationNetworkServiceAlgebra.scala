@@ -6,7 +6,7 @@ package org.mastermold.platform.common.validation
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F Effect
  */
-trait StringNetworkValidationServiceAlgebra[F[_]] {
+trait StringValidationNetworkServiceAlgebra[F[_]] {
 
   def networkIP(string: String): F[String]
 

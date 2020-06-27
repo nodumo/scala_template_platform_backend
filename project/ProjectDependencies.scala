@@ -72,8 +72,9 @@ object ProjectDependencies {
 
   private lazy val shapeless =  "com.chuusai" %% "shapeless" % "2.3.3"
 
-  private lazy val spec2 = "org.specs2" %% "specs2-core" % "4.10.0" % "test"
+  private lazy val scalacheck = "org.scalacheck" % "scalacheck_sjs1_2.13" % "1.14.3"
 
+  private lazy val spec2 = "org.specs2" %% "specs2-core" % "4.10.0" % "test"
 
   // --- Project name
 
@@ -101,7 +102,7 @@ object ProjectDependencies {
 
   // --- Internal configuration
 
-  private lazy val baseDependencies = Seq(spec2)
+  private lazy val baseDependencies = Seq(spec2, scalacheck)
 
   lazy val applicationDependencies: Seq[ModuleID] =
     baseDependencies ++ Seq(catsLib, catsEffect, jodaScalaLib)
