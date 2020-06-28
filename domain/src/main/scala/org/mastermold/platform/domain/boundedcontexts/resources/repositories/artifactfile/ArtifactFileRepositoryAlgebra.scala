@@ -17,11 +17,11 @@ trait ArtifactFileRepositoryAlgebra[
 
   def createNewArtifactFile(artifactFile: CheckedInvariant[ArtifactFileAggregate]): F[ArtifactFileAggregate]
 
-  def retrieveArtifactFileById(artifactFileId: CheckedInvariant[ArtifactFileId]): F[Option[ArtifactFileAggregate]]
+  def retrieveArtifactFileById(artifactFileId: ArtifactFileId): F[Option[ArtifactFileAggregate]]
 
   def updateExistingArtifactFile(
       artifactFile: CheckedInvariant[ArtifactFileAggregate]): F[Option[ArtifactFileAggregate]]
 
-  def deleteArtifactFileById(artifactFileId: CheckedInvariant[ArtifactFileId]): F[Unit]
+  def deleteArtifactFileById(artifactFileId: ArtifactFileId): F[Unit]
 
 }
