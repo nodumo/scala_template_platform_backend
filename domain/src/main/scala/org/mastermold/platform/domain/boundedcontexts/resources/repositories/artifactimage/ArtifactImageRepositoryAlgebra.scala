@@ -17,11 +17,11 @@ trait ArtifactImageRepositoryAlgebra[
 
   def createNewArtifactImage(artifactImage: CheckedInvariant[ArtifactImageAggregate]): F[ArtifactImageAggregate]
 
-  def retrieveArtifactImageById(artifactImageId: CheckedInvariant[ArtifactImageId]): F[Option[ArtifactImageAggregate]]
+  def retrieveArtifactImageById(artifactImageId: ArtifactImageId): F[Option[ArtifactImageAggregate]]
 
   def updateExistingArtifactImage(
       artifactImage: CheckedInvariant[ArtifactImageAggregate]): F[Option[ArtifactImageAggregate]]
 
-  def deleteArtifactImageById(artifactImageId: CheckedInvariant[ArtifactImageAggregate]): F[Unit]
+  def deleteArtifactImageById(artifactImageId: ArtifactImageAggregate): F[Unit]
 
 }
