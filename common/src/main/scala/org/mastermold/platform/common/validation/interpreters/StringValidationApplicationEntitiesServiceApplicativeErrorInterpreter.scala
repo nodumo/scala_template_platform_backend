@@ -42,6 +42,8 @@ class StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F[_]
 
 object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
 
+  // --- Validation: Errors
+
   private[interpreters] val Invalid_application_username         = "Invalid_application_username"
   private[interpreters] val Invalid_application_password         = "Invalid_application_password"
   private[interpreters] val Invalid_application_entity_title     = "Invalid_application_entity_title"

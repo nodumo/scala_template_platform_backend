@@ -52,6 +52,8 @@ class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErr
 
 object StringValidationCreditCardApplicativeErrorInterpreter {
 
+  // --- Validation: Errors
+
   private[interpreters] val Invalid_credit_card_master_amex_number: ValidationError.Repr =
     "Invalid_credit_card_master_amex_number"
   private[interpreters] val Invalid_credit_card_discover_card_number: ValidationError.Repr =
