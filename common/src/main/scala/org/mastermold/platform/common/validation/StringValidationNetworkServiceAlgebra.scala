@@ -8,12 +8,20 @@ package org.mastermold.platform.common.validation
  */
 trait StringValidationNetworkServiceAlgebra[F[_]] {
 
-  def networkIP(string: String): F[String]
-
-  def networkIPV6(string: String): F[String]
-
+  /**
+   * Network website.
+   *
+   * @author Nick Odumo (nodumo@nodumo.com)
+   * @param string String to test
+   */
   def networkWebsite(string: String): F[String]
 
+  /**
+   * Network website.
+   *
+   * @author Nick Odumo (nodumo@nodumo.com)
+   * @param string String to test
+   */
   def networkEmail(string: String): F[String]
 
 }
