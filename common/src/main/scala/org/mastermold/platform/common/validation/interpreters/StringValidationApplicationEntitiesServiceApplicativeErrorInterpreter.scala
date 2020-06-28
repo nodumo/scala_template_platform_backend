@@ -42,14 +42,10 @@ class StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F[_]
 
 object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
 
-  private[interpreters] val Invalid_application_username = "Invalid_application_username"
-
-  private[interpreters] val Invalid_application_password = "Invalid_application_password"
-
-  private[interpreters] val Invalid_application_entity_title = "Invalid_application_entity_title"
-
-  private[interpreters] val Invalid_application_empty_string = "Invalid_application_empty_string"
-
+  private[interpreters] val Invalid_application_username         = "Invalid_application_username"
+  private[interpreters] val Invalid_application_password         = "Invalid_application_password"
+  private[interpreters] val Invalid_application_entity_title     = "Invalid_application_entity_title"
+  private[interpreters] val Invalid_application_empty_string     = "Invalid_application_empty_string"
   private[interpreters] val Invalid_application_not_empty_string = "Invalid_application_not_empty_string"
 
   private[interpreters] val rawErrorMessages: ErrorMessagesCollection = Set(
@@ -59,9 +55,4 @@ object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
     Invalid_application_empty_string,
     Invalid_application_not_empty_string
   )
-
-  def apply[F[_]: ApplicativeErrorValidationError]
-    : StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F] =
-    new StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter()
-
 }
