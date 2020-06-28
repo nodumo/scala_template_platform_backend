@@ -22,8 +22,8 @@ trait ArtifactAccessPassRepositoryAlgebra[
       artifactAccessPassId: ArtifactAccessPassId): F[Option[ArtifactAccessPassAggregate]]
 
   def updateExistingArtifactAccessPass(
-      artifactAccessPass: ArtifactAccessPassAggregate): F[Option[ArtifactAccessPassAggregate]]
+      artifactAccessPass: CheckedInvariant[ArtifactAccessPassAggregate]): F[Option[ArtifactAccessPassAggregate]]
 
-  def deleteArtifactAccessPassById(artifactAccessPassId: CheckedInvariant[ArtifactAccessPassId]): F[Unit]
+  def deleteArtifactAccessPassById(artifactAccessPassId: ArtifactAccessPassId): F[Unit]
 
 }
