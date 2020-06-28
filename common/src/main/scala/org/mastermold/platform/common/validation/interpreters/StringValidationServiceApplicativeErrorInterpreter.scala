@@ -44,14 +44,14 @@ class StringValidationServiceApplicativeErrorInterpreter[F[_]: ApplicativeErrorV
 
 object StringValidationServiceApplicativeErrorInterpreter {
 
-  private val Invalid_string_is_longer_than = "Invalid_credit_card_visa_number"
+  private val Invalid_string_is_longer_than: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
-  private val Invalid_string_is_shorter_than = "Invalid_credit_card_visa_number"
+  private val Invalid_string_is_shorter_than: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
-  private val Invalid_string_is_not_empty = "Invalid_credit_card_visa_number"
+  private val Invalid_string_is_not_empty: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
-  private val Invalid_string_is_empty = "Invalid_credit_card_visa_number"
+  private val Invalid_string_is_empty: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
-  private val Invalid_string_is_matching_regex = "Invalid_credit_card_visa_number"
+  private val Invalid_string_is_matching_regex: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
 }

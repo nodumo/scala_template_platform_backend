@@ -64,7 +64,8 @@ object StringValidationCreditCardApplicativeErrorInterpreter {
   private[interpreters] val Invalid_credit_card_visa_mastercard_number: ValidationError.Repr =
     "Invalid_credit_card_visa_mastercard_number"
 
-  private[interpreters] val Invalid_credit_card_visa_number: ValidationError.Repr = "Invalid_credit_card_visa_number"
+  private[interpreters] val Invalid_credit_card_visa_number: ValidationError.Repr =
+    "Invalid_credit_card_visa_number"
 
   private[interpreters] val Invalid_credit_card_unioncard_pay_card_code: ValidationError.Repr =
     "Invalid_credit_card_unioncard_pay_card_code"
