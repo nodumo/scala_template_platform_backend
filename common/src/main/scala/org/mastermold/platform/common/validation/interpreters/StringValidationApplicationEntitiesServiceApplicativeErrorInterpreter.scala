@@ -8,7 +8,7 @@ import org.mastermold.platform.common.validation.{
   ValidationError
 }
 import org.mastermold.platform.common.validation.interpreters.{
-  StringValidationApplicationEntitiesServiceInterpreter => Interpreter
+  StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter => Interpreter
 }
 
 /**
@@ -17,7 +17,7 @@ import org.mastermold.platform.common.validation.interpreters.{
  * @author Nick Odumo (nodumo@nodumo.com).
  * @tparam F Applicative error
  */
-class StringValidationApplicationEntitiesServiceInterpreter[F[_]: ApplicativeErrorValidationError]
+class StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]
     with StringValidationApplicationEntitiesServiceAlgebra[F] {
 
@@ -40,7 +40,7 @@ class StringValidationApplicationEntitiesServiceInterpreter[F[_]: ApplicativeErr
 
 }
 
-object StringValidationApplicationEntitiesServiceInterpreter {
+object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
 
   private[interpreters] val Invalid_application_username = "Invalid_application_username"
 
@@ -60,7 +60,8 @@ object StringValidationApplicationEntitiesServiceInterpreter {
     Invalid_application_not_empty_string
   )
 
-  def apply[F[_]: ApplicativeErrorValidationError]: StringValidationApplicationEntitiesServiceInterpreter[F] =
-    new StringValidationApplicationEntitiesServiceInterpreter()
+  def apply[F[_]: ApplicativeErrorValidationError]
+    : StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F] =
+    new StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter()
 
 }

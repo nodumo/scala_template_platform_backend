@@ -7,10 +7,10 @@ import org.mastermold.platform.common.validation.{
 }
 import scala.util.matching.Regex
 import org.mastermold.platform.common.validation.interpreters.{
-  StringValidationServiceApplicativeInterpreter => Interpreter
+  StringValidationServiceApplicativeErrorInterpreter => Interpreter
 }
 
-class StringValidationServiceApplicativeInterpreter[F[_]: ApplicativeErrorValidationError]
+class StringValidationServiceApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]
     with StringValidationServiceAlgebra[F, Regex] {
 
@@ -42,7 +42,7 @@ class StringValidationServiceApplicativeInterpreter[F[_]: ApplicativeErrorValida
 
 }
 
-object StringValidationServiceApplicativeInterpreter {
+object StringValidationServiceApplicativeErrorInterpreter {
 
   private val Invalid_string_is_longer_than = "Invalid_credit_card_visa_number"
 

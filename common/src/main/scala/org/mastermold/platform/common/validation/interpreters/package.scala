@@ -5,9 +5,13 @@ import cats.instances.all._
 package object interpreters {
 
   val validatorsErrorMessages: ErrorMessagesCollection =
-  StringValidationApplicationEntitiesServiceInterpreter.rawErrorMessages ++ StringValidationCreditCardApplicativeErrorInterpreter.rawErrorMessages
+  StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.rawErrorMessages ++
+  StringValidationCreditCardApplicativeErrorInterpreter.rawErrorMessages
 
-  object stringValidation extends StringValidationApplicationEntitiesServiceInterpreter
+  object stringValidation extends StringValidationServiceApplicativeErrorInterpreter
+
+  object stringValidationApplicationEntities
+      extends StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter
 
   object stringValidationCreditCard extends StringValidationCreditCardApplicativeErrorInterpreter
 

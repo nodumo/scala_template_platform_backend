@@ -13,8 +13,8 @@ final class StringApplicationValidationServiceInterpreterTest extends Specificat
                                                                  """
 
   private def spec1: MatchResult[ErrorMessagesCollection] =
-    StringValidationApplicationEntitiesServiceInterpreter.rawErrorMessages must have size 5
+    StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.rawErrorMessages must have size 5
 
   private def spec2: MatchResult[ErrorMessagesCollection] =
-    StringValidationApplicationEntitiesServiceInterpreter.rawErrorMessages must have size 5
+    StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.rawErrorMessages must have size 5
 }
