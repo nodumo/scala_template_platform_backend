@@ -2,8 +2,8 @@ package org.mastermold.platform.common.validation.interpreters
 
 import org.mastermold.platform.common.validation.{
   regexStrings,
-  ErrorMessagesCollection,
   ApplicativeErrorValidationError,
+  ErrorMessagesCollection,
   StringValidationApplicationEntitiesServiceAlgebra,
   ValidationError
 }
@@ -12,14 +12,13 @@ import org.mastermold.platform.common.validation.interpreters.{
 }
 
 /**
-  * String application validation service.
-  *
-  * @author Nick Odumo (nodumo@nodumo.com).
-  * @tparam F Applicative error
-  */
-final class StringValidationApplicationEntitiesServiceInterpreter[F[_] : ApplicativeErrorValidationError]
-  extends ValidationServiceApplicativeErrorInterpreter[F]
-    with ValidationServiceStringMixinInterpreter[F, ValidationError]
+ * String application validation service.
+ *
+ * @author Nick Odumo (nodumo@nodumo.com).
+ * @tparam F Applicative error
+ */
+class StringValidationApplicationEntitiesServiceInterpreter[F[_]: ApplicativeErrorValidationError]
+    extends ValidationServiceApplicativeErrorInterpreter[F]
     with StringValidationApplicationEntitiesServiceAlgebra[F] {
 
   override def applicationUsername(string: String): F[String] =
@@ -43,17 +42,17 @@ final class StringValidationApplicationEntitiesServiceInterpreter[F[_] : Applica
 
 object StringValidationApplicationEntitiesServiceInterpreter {
 
-  private[common] val Invalid_application_username = "Invalid_application_username"
+  private[interpreters] val Invalid_application_username = "Invalid_application_username"
 
-  private[common] val Invalid_application_password = "Invalid_application_password"
+  private[interpreters] val Invalid_application_password = "Invalid_application_password"
 
-  private[common] val Invalid_application_entity_title = "Invalid_application_entity_title"
+  private[interpreters] val Invalid_application_entity_title = "Invalid_application_entity_title"
 
-  private[common] val Invalid_application_empty_string = "Invalid_application_empty_string"
+  private[interpreters] val Invalid_application_empty_string = "Invalid_application_empty_string"
 
-  private[common] val Invalid_application_not_empty_string = "Invalid_application_not_empty_string"
+  private[interpreters] val Invalid_application_not_empty_string = "Invalid_application_not_empty_string"
 
-  private[common] val rawErrorMessages: ErrorMessagesCollection = Set(
+  private[interpreters] val rawErrorMessages: ErrorMessagesCollection = Set(
     Invalid_application_username,
     Invalid_application_password,
     Invalid_application_entity_title,
@@ -61,7 +60,7 @@ object StringValidationApplicationEntitiesServiceInterpreter {
     Invalid_application_not_empty_string
   )
 
-  def apply[F[_] : ApplicativeErrorValidationError]: StringValidationApplicationEntitiesServiceInterpreter[F] =
+  def apply[F[_]: ApplicativeErrorValidationError]: StringValidationApplicationEntitiesServiceInterpreter[F] =
     new StringValidationApplicationEntitiesServiceInterpreter()
 
 }

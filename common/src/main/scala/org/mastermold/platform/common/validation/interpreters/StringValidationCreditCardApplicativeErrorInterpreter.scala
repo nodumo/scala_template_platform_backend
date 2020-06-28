@@ -2,8 +2,8 @@ package org.mastermold.platform.common.validation.interpreters
 
 import org.mastermold.platform.common.validation.{
   regexStrings,
-  ErrorMessagesCollection,
   ApplicativeErrorValidationError,
+  ErrorMessagesCollection,
   StringValidationCreditCardServiceAlgebra,
   ValidationError
 }
@@ -17,12 +17,11 @@ import org.mastermold.platform.common.validation.interpreters.{
  *
  * @author Nick Odumo (nodumo@nodumo.com)
  * @usecase Validating Credit Card values for the commerce related domains.
- *         It is important that we hide the credit card values from the log.
+ *          It is important that we hide the credit card values from the log.
  * @tparam F Effect
  */
-final class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
+class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]
-    with ValidationServiceStringMixinInterpreter[F, ValidationError]
     with StringValidationCreditCardServiceAlgebra[F] {
 
   override def validateCreditCardMasterAmexNumber(string: String): F[String] =
@@ -53,19 +52,19 @@ final class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: Applicat
 
 object StringValidationCreditCardApplicativeErrorInterpreter {
 
-  private val Invalid_credit_card_master_amex_number = "Invalid_credit_card_master_amex_number"
+  private[interpreters] val Invalid_credit_card_master_amex_number = "Invalid_credit_card_master_amex_number"
 
-  private val Invalid_credit_card_discover_card_number = "Invalid_credit_card_discover_card_number"
+  private[interpreters] val Invalid_credit_card_discover_card_number = "Invalid_credit_card_discover_card_number"
 
-  private val Invalid_credit_card_master_card_number = "Invalid_credit_card_master_card_number"
+  private[interpreters] val Invalid_credit_card_master_card_number = "Invalid_credit_card_master_card_number"
 
-  private val Invalid_credit_card_visa_mastercard_number = "Invalid_credit_card_visa_mastercard_number"
+  private[interpreters] val Invalid_credit_card_visa_mastercard_number = "Invalid_credit_card_visa_mastercard_number"
 
-  private val Invalid_credit_card_visa_number = "Invalid_credit_card_visa_number"
+  private[interpreters] val Invalid_credit_card_visa_number = "Invalid_credit_card_visa_number"
 
-  private val Invalid_credit_card_unioncard_pay_card_code = "Invalid_credit_card_unioncard_pay_card_code"
+  private[interpreters] val Invalid_credit_card_unioncard_pay_card_code = "Invalid_credit_card_unioncard_pay_card_code"
 
-  val rawErrorMessages: ErrorMessagesCollection =
+  private[interpreters] val rawErrorMessages: ErrorMessagesCollection =
     Set(
       Invalid_credit_card_master_amex_number,
       Invalid_credit_card_visa_mastercard_number,

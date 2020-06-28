@@ -4,7 +4,7 @@ import cats.Show
 import org.mastermold.platform.common.logging.ShowLoggable
 
 /**
- * Validation error. 
+ * Validation error.
  *
  * @author Nick Odumo (nodumo@nodumo.com)
  * @param value Underlying value

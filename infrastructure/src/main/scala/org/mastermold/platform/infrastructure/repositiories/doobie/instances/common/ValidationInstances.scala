@@ -1,7 +1,7 @@
 package org.mastermold.platform.infrastructure.repositiories.doobie.instances.common
 
 import doobie.util.{Get, Put}
-import org.mastermold.platform.common.validation.{Checked9DigitNumber, CheckedCorrespondenceEmail, CheckedNetworkEmailString, CheckedNetworkHostLocation, CheckedNetworkHostPort, CheckedNetworkWebsite}
+import org.mastermold.platform.common.validation.{Checked9DigitNumber, CheckedCorrespondenceEmail,  CheckedNetworkHostLocation, CheckedNetworkHostPort, CheckedNetworkWebsite}
 
 /**
   * Validation instances.
@@ -24,9 +24,6 @@ trait ValidationInstances {
 
   implicit val checkedNetworkHostPortGet: Get[CheckedNetworkHostPort] = Get[CheckedNetworkHostPort.Repr].tmap(CheckedNetworkHostPort.apply)
   implicit val checkedNetworkHostPortPut: Put[CheckedNetworkHostPort] = Put[CheckedNetworkHostPort.Repr].tcontramap(_.value)
-
-  implicit val checkedNetworkEmailStringGet: Get[CheckedNetworkEmailString] = Get[CheckedNetworkEmailString.Repr].tmap(CheckedNetworkEmailString.apply)
-  implicit val checkedNetworkEmailStringPut: Put[CheckedNetworkEmailString] = Put[CheckedNetworkEmailString.Repr].tcontramap(_.value)
 
   implicit val checkedNetworkWebsiteGet: Get[CheckedNetworkWebsite] = Get[CheckedNetworkWebsite.Repr].tmap(CheckedNetworkWebsite.apply)
   implicit val checkedNetworkWebsitePut: Put[CheckedNetworkWebsite] = Put[CheckedNetworkWebsite.Repr].tcontramap(_.value)
