@@ -9,19 +9,19 @@ package org.mastermold.platform.common.validation
 trait StringValidationNetworkServiceAlgebra[F[_]] {
 
   /**
-   * Network website.
-   *
-   * @author Nick Odumo (nodumo@nodumo.com)
-   * @param string String to test
-   */
-  def networkWebsite(string: String): F[String]
-
-  /**
    * Network email.
    *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @param string String to test
    */
   def networkEmail(string: String): F[String]
+
+  /**
+   * Network website.
+   *
+   * @author Nick Odumo (nodumo@nodumo.com)
+   * @param string String to test
+   */
+  def networkWebsite(string: String): F[String]
 
 }

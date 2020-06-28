@@ -7,16 +7,11 @@ import org.mastermold.platform.common.validation.{
   StringValidationApplicationEntitiesServiceAlgebra,
   ValidationError
 }
+
 import org.mastermold.platform.common.validation.interpreters.{
   StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter => Interpreter
 }
 
-/**
- * String application validation service.
- *
- * @author Nick Odumo (nodumo@nodumo.com).
- * @tparam F Applicative error
- */
 class StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]
     with StringValidationApplicationEntitiesServiceAlgebra[F] {
@@ -57,5 +52,5 @@ object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
     Invalid_application_empty_string,
     Invalid_application_not_empty_string
   )
-  
+
 }
