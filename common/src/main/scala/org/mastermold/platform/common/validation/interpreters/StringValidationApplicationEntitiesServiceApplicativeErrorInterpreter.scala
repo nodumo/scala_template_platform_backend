@@ -57,4 +57,5 @@ object StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter {
     Invalid_application_empty_string,
     Invalid_application_not_empty_string
   )
+  
 }
