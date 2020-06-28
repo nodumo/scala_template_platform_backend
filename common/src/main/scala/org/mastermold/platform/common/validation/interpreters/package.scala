@@ -6,13 +6,15 @@ package object interpreters {
 
   val validatorsErrorMessages: ErrorMessagesCollection =
   StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.rawErrorMessages ++
-  StringValidationCreditCardApplicativeErrorInterpreter.rawErrorMessages
+  StringValidationCreditCardServiceApplicativeErrorInterpreter.rawErrorMessages
 
-  object stringValidation extends StringValidationServiceApplicativeErrorInterpreter
+  object stringValidationCreditCardService extends StringValidationCreditCardServiceApplicativeErrorInterpreter
+
+  object stringValidationJavaLiteralsService extends StringValidationJavaLiteralsServiceInterpreter
+
+  object stringValidationService extends StringValidationServiceApplicativeErrorInterpreter
 
   object stringValidationApplicationEntities
       extends StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter
-
-  object stringValidationCreditCard extends StringValidationCreditCardApplicativeErrorInterpreter
 
 }

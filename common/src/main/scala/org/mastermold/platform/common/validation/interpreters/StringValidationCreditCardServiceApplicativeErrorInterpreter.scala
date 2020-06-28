@@ -9,10 +9,10 @@ import org.mastermold.platform.common.validation.{
 }
 
 import org.mastermold.platform.common.validation.interpreters.{
-  StringValidationCreditCardApplicativeErrorInterpreter => Interpreters
+  StringValidationCreditCardServiceApplicativeErrorInterpreter => Interpreters
 }
 
-class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
+class StringValidationCreditCardServiceApplicativeErrorInterpreter[F[_]: ApplicativeErrorValidationError]
     extends ValidationServiceApplicativeErrorInterpreter[F]
     with StringValidationCreditCardServiceAlgebra[F] {
 
@@ -42,7 +42,7 @@ class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErr
 
 }
 
-object StringValidationCreditCardApplicativeErrorInterpreter {
+object StringValidationCreditCardServiceApplicativeErrorInterpreter {
 
   // --- Validation: Errors
 
