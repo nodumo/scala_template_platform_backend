@@ -26,8 +26,7 @@ object StringValidationNetworkServiceApplicativeErrorInterpreter {
 
   // --- Validation: Errors
 
-  private[interpreters] val Invalid_network_website_email: ValidationError.Repr = "Invalid_network_website_email"
-
+  private[interpreters] val Invalid_network_website_email: ValidationError.Repr   = "Invalid_network_website_email"
   private[interpreters] val Invalid_network_website_website: ValidationError.Repr = "Invalid_network_website_website"
 
   private[interpreters] val rawErrorMessages: ErrorMessagesCollection =
