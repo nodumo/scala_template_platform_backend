@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="327b746c-1b79-40b1-8e5a-df2838b6a4ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringParsingJavaLiteralsServiceAlgebra.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringParsingJavaLiteralsServiceApplicativeErrorInterpreter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/AssetIdFactoryServiceAlgebra.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/interpreters/AssetIdFactoryServiceInterpreter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/ValidationServiceAlgebra.scala" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/ValidationServiceAlgebra.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/AccountIdFactoryServiceAlgebra.scala" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/AccountIdFactoryServiceAlgebra.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/PasswordFactoryServiceAlgebra.scala" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/PasswordFactoryServiceAlgebra.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/serverapi/target/" />
+    <ignored path="$PROJECT_DIR$/application/target/" />
+    <ignored path="$PROJECT_DIR$/domain/target/" />
+    <ignored path="$PROJECT_DIR$/infrastructure/target/" />
+    <ignored path="$PROJECT_DIR$/bigdata/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/servercore/target/" />
+    <ignored path="$PROJECT_DIR$/serverstaticwebsites/target/" />
+    <ignored path="$PROJECT_DIR$/infrastructureintegrations/target/" />
+    <ignored path="$PROJECT_DIR$/lambda/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/interpreters/AssetIdFactoryServiceInterpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="e#94#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationJavaLiteralsServiceAlgebra.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringParsingJavaLiteralsServiceAlgebra.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringParsingJavaLiteralsServiceApplicativeErrorInterpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#64#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationJavaLiteralsServiceInterpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding>
+                <element signature="e#64#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="e#64#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationServiceApplicativeErrorInterpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="95" />
+              <folding>
+                <element signature="e#64#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationDateServiceAlgebra.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/PasswordFactoryServiceAlgebra.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/repositories/account/AccountRepositoryAlgebra.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Scala Trait" />
+        <option value="Scala Object" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Organization   Organization id to persist</find>
+      <find>id to persist</find>
+      <find>@</find>
+      <find>T</find>
+      <find>* @param thing Thing</find>
+      <find>: QueryFragment</find>
+      <find>columnNameOption</find>
+      <find>no</find>
+      <find>Value] extends FactoryServiceEffectfulAlgebra[F, Repr, Value]</find>
+      <find>int</find>
+      <find>string:</find>
+      <find>mastercard</find>
+      <find>union pay card</find>
+      <find>'</find>
+      <find>private</find>
+      <find>nod</find>
+      <find>CustomerId</find>
+      <find>HostPort</find>
+      <find>9DigitNumber</find>
+      <find>HostLocation</find>
+      <find>NetworkEmailString</find>
+      <find>* String validate</find>
+      <find>Local</find>
+      <find>[common]</find>
+      <find>Interpreter</find>
+      <find>emai</find>
+      <find>* @tparam F Validation effect</find>
+      <find>* @tparam F Applicative error</find>
+      <find>* @tparam F Applicative erro</find>
+      <find>EITH</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ArtifactFileAggregate</replace>
+      <replace>ArtifactImageAggregate</replace>
+      <replace>AssetAggregate</replace>
+      <replace>PersonAggregate</replace>
+      <replace>id to persist</replace>
+      <replace>AggregateAggregate</replace>
+      <replace>to persist</replace>
+      <replace>AccountAggregate</replace>
+      <replace>Entity</replace>
+      <replace>entity:</replace>
+      <replace>* @param entity</replace>
+      <replace>* @param entity Entity</replace>
+      <replace>(implicit put: Put[Column]): QueryFragment</replace>
+      <replace>sqlColumnNameOption</replace>
+      <replace>Value &lt;: DomainEntity] extends FactoryServiceEffectfulAlgebra[F, Repr, Value]</replace>
+      <replace>length</replace>
+      <replace>string</replace>
+      <replace>Union Pay Card</replace>
+      <replace>&quot;</replace>
+      <replace>private[common]</replace>
+      <replace>Checked9DigitNumber</replace>
+      <replace>CorrespondenceEmail</replace>
+      <replace>HostLocation</replace>
+      <replace>NetworkEmailString</replace>
+      <replace>HostPort</replace>
+      <replace>NetworkWebsite</replace>
+      <replace>Interpreter</replace>
+      <replace>[interpreters]</replace>
+      <replace>Companion</replace>
+      <replace>* @tparam F Validation effect</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Projects\multiplatform\infrastructure</dir>
+      <dir>F:\Projects\multiplatform\domain\src\main\scala\org\mastermold\platform\domain\boundedcontexts\organizations\services\account</dir>
+      <dir>F:\Projects\multiplatform\domain\src\main\scala\org\mastermold\platform\domain\boundedcontexts</dir>
+      <dir>F:\Projects\multiplatform\domain\src\main\scala\org\mastermold\platform\domain</dir>
+      <dir>F:\Projects\multiplatform\common\src\main\scala\org\mastermold\platform\common\validation\interpreters</dir>
+      <dir>F:\Projects\multiplatform\common\src\main\scala\org\mastermold\platform\common\validation</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/CheckedJavaJDBCUrlString.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/DataEmailsList.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/DataNames.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/DataPersonSex.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/lib/DataPersonSex.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/generator/DataPersonSex.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/generator/package.scala" />
+        <option value="$PROJECT_DIR$/common/src/test/scala/org/mastermold/platform/common/validation/generator/data/DataPersonSex.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/package.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/instances/language/package.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/instances/common/CommonInstances.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/instances/package.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/CheckedDateTimeStringYYYYMMDDHHMISS.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/Checked7DigitNumber.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/Checked.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/GenAggregateColumnList.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/FragmentExtensionSyntax.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/FragmentExtension.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/package.scala" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/interpreters/BaseDoobieRepositoryInterpreter.scala" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/migrations/.gitkeep" />
+        <option value="$PROJECT_DIR$/environmentdevelopment.env" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/instances/common/ValidationInstances.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationCorrespondenceServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationCreditCardServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationDateServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationCreditCardServiceInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/ValidationServiceStringMixinInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationServiceApplicativeInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationApplicationEntitiesServiceInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/regexStrings.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationServiceApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationNetworkServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationNetworkServiceApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationJavaLiteralsServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationJavaLiteralsServiceInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationCreditCardApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationCreditCardServiceApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/AssetIdServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/ValidationServiceApplicativeErrorInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/ValidationServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/package.scala" />
+        <option value="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/models/asset/AssetId.scala" />
+        <option value="$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/interpreters/AssetIdFactoryServiceInterpreter.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringParsingJavaLiteralsServiceAlgebra.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringParsingJavaLiteralsServiceApplicativeErrorInterpreter.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="YOmxiwvW" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreters" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/dataprocessingapp" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.mastermold.platform.infrastructure" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\multiplatform\infrastructure\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projects\multiplatform\lambda\src\main\scala" />
+      <recent name="F:\Projects\multiplatform\lambda\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="platform" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="infrastructure [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/infrastructure" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="serverstaticwebsites [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/serverstaticwebsites" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bigData [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/bigdata" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lambda [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/lambda" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="serverapi [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/serverapi" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="global [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="domain [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/domain" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="servercore [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/servercore" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="application [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/application" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="infrastructureintegrations [file:/F:/Projects/multiplatform/]" />
+                <option name="path" value="$PROJECT_DIR$/infrastructureintegrations" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="platform-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3963381526" />
+        <entry key="$PROJECT_DIR$/project/EnvironmentFlags.scala" value="4294907695" />
+        <entry key="$PROJECT_DIR$/project/ProjectCompilerSettings.scala" value="545645563" />
+        <entry key="$PROJECT_DIR$/project/ProjectDependencies.scala" value="3668898608" />
+        <entry key="$PROJECT_DIR$/project/ProjectResolvers.scala" value="1394542456" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2178301611" />
+        <entry key="$PROJECT_DIR$/project/metals.sbt" value="2619039583" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1862820768" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/Personal/examples/examples/sbt-multi-project-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Personal/examples/tapir-http4s-todo-mvc" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/temp/doobie" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/temp/finch" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/temp/shapeless" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/temp/zio" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../parsesql" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="327b746c-1b79-40b1-8e5a-df2838b6a4ff" name="Default Changelist" comment="" />
+      <created>1589733489153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589733489153</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Update: Building up the domain model">
+      <created>1593053901257</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1593053901257</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Update: Building up the domain model">
+      <created>1593054049895</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1593054049895</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Update: Building up the domain model">
+      <created>1593054265670</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1593054265670</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Update: Building up the domain model">
+      <created>1593055089264</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1593055089264</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Update: Building up the domain model">
+      <created>1593103084982</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1593103084982</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Update: Building up the domain model">
+      <created>1593109099979</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1593109099979</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Minor tidy up.">
+      <created>1593120585509</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1593120585509</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Domain scaffolding">
+      <created>1593128709064</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1593128709064</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Domain scaffolding">
+      <created>1593130447140</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1593130447140</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Domain scaffolding">
+      <created>1593130695147</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1593130695147</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Domain scaffolding">
+      <created>1593195038724</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1593195038724</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Domain scaffolding">
+      <created>1593198871421</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1593198871422</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Domain scaffolding">
+      <created>1593207876869</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1593207876870</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Update: Domain scaffolding">
+      <created>1593208278416</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1593208278416</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Update: Domain scaffolding">
+      <created>1593208357099</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1593208357099</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Update: Infrastructure scaffolding">
+      <created>1593211165857</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1593211165857</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Update: Infrastructure scaffolding">
+      <created>1593211923392</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1593211923392</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Update: Infrastructure scaffolding">
+      <created>1593212256357</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1593212256357</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Update: Infrastructure scaffolding">
+      <created>1593212295473</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1593212295473</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Update: Infrastructure scaffolding">
+      <created>1593216376378</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1593216376378</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Update: Infrastructure scaffolding">
+      <created>1593217402143</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1593217402143</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Update: Infrastructure scaffolding">
+      <created>1593218381363</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1593218381365</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Update: Infrastructure scaffolding">
+      <created>1593219049090</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1593219049090</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Update: Infrastructure scaffolding">
+      <created>1593219130523</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1593219130523</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Update: Infrastructure scaffolding">
+      <created>1593224825352</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1593224825352</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Update: Infrastructure scaffolding">
+      <created>1593227064249</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1593227064250</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Update: Infrastructure scaffolding">
+      <created>1593227207312</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1593227207312</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Update: Infrastructure scaffolding">
+      <created>1593227704745</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1593227704745</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Update: Infrastructure scaffolding">
+      <created>1593227793550</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1593227793550</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Update: Infrastructure scaffolding">
+      <created>1593229839262</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1593229839262</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Update: Infrastructure scaffolding">
+      <created>1593230035752</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1593230035752</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Update: Infrastructure scaffolding">
+      <created>1593230191293</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1593230191293</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Update: Infrastructure scaffolding">
+      <created>1593230257877</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1593230257878</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Update: Infrastructure scaffolding">
+      <created>1593265984949</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1593265984949</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Update: Infrastructure scaffolding">
+      <created>1593266257006</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1593266257007</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Update: Infrastructure scaffolding">
+      <created>1593269486511</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1593269486511</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Update: Infrastructure scaffolding">
+      <created>1593273544856</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1593273544856</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Update: Added Fly away DB (SBT)&amp; Infrastructure scaffolding">
+      <created>1593295332591</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1593295332592</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Update: Added Fly away DB (SBT)&amp; Misc. setup">
+      <created>1593295711211</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1593295711211</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Update: Added Fly away DB (SBT)&amp; Misc. setup">
+      <created>1593304377279</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1593304377279</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Update: Added Fly away DB (SBT)&amp; Misc. setup">
+      <created>1593304464370</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1593304464370</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Update: Application update">
+      <created>1593304856688</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1593304856688</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Update: Application update">
+      <created>1593308096421</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1593308096421</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Update: Application update">
+      <created>1593308321739</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1593308321739</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Update: Application update">
+      <created>1593308454245</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1593308454245</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Update: Application update">
+      <created>1593308603984</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1593308603984</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Update: Application update">
+      <created>1593308989810</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1593308989810</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Update: Application update">
+      <created>1593309074365</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1593309074366</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Update: Application update">
+      <created>1593310147459</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1593310147459</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="DB Browser" order="0" weight="0.32995737" />
+      <window_info id="Project Explorer" order="1" weight="0.32995737" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.26545843" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info id="Job Explorer" order="9" weight="0.32995737" />
+      <window_info anchor="bottom" id="Console" order="0" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="1" sideWeight="0.49840087" weight="0.3288889" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49573562" visible="true" weight="0.33222222" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5042644" side_tool="true" weight="0.32444444" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="SBT Execute" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="sbt" order="1" />
+      <window_info anchor="right" id="Cargo" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Genesis" />
+    <MESSAGE value="Update: Minor touch-up" />
+    <MESSAGE value="Update: Type-level machinery for DB and core" />
+    <MESSAGE value="Update: Application integration script definition" />
+    <MESSAGE value="Update: Monadic scaffold for integration runner." />
+    <MESSAGE value="Update: Code upgrade. Powering through." />
+    <MESSAGE value="Update: Building up the domain model" />
+    <MESSAGE value="Minor tidy up." />
+    <MESSAGE value="Domain scaffolding" />
+    <MESSAGE value="Update: Domain scaffolding" />
+    <MESSAGE value="Update: Infrastructure scaffolding" />
+    <MESSAGE value="Update: Added Fly away DB (SBT)&amp; Infrastructure scaffolding" />
+    <MESSAGE value="Update: Added Fly away DB (SBT)&amp; Misc. setup" />
+    <MESSAGE value="Update: Application update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Application update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/interpreters/DoobieTransactorFactoryServiceInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/syntax/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/syntax/StringExtensionSyntax.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/FragmentExtensionSyntax.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/FragmentExtension.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#76#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/syntax/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/interpreters/BaseDoobieRepositoryInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#82#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/EnvironmentFlags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environmentdevelopment.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" column="6" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/CheckedCorrespondenceEmail.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infrastructure/src/main/scala/org/mastermold/platform/infrastructure/repositiories/doobie/instances/common/ValidationInstances.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/CheckedNetworkEmailString.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/ValidationServiceStringMixinInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="27" />
+          <folding>
+            <element signature="e#64#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationCorrespondenceServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationApplicationEntitiesServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/regexStrings.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="37" column="70" lean-forward="true" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringParsingDateEffectServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/repositories/asset/AssetRepositoryAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationCreditCardServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="27" selection-start-line="27" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationNetworkServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationNetworkServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="112" />
+          <folding>
+            <element signature="e#64#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationCreditCardServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#64#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/team/TeamFactoryServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/SecurityQuestion1FactoryServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/definitions/DomainEntityFactoryServiceEffectfulAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/softwarepatterns/FactoryServiceEffectfulAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/AssetIdFactoryServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/ValidationError.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/ValidationServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/ValidationServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#64#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/models/asset/AssetId.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/organization/OrganizationFactoryServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/repositories/account/AccountRepositoryAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/organizations/services/account/PasswordFactoryServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/scala/org/mastermold/platform/domain/boundedcontexts/resources/services/asset/interpreters/AssetIdFactoryServiceInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#94#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationDateServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="95" />
+          <folding>
+            <element signature="e#64#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringParsingJavaLiteralsServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationApplicationEntitiesServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#64#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringValidationJavaLiteralsServiceInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#64#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/StringValidationJavaLiteralsServiceAlgebra.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/org/mastermold/platform/common/validation/interpreters/StringParsingJavaLiteralsServiceApplicativeErrorInterpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#64#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

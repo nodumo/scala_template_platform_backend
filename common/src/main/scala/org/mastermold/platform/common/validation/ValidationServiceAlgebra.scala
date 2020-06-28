@@ -1,5 +1,7 @@
 package org.mastermold.platform.common.validation
 
+import scala.util.matching.Regex
+
 /**
  * Validation service algebra.
  *
@@ -14,7 +16,7 @@ trait ValidationServiceAlgebra[F[_], E] {
    * @author Nick Odumo (nodumo@nodumo.com)
    * @param validationError Validation message
    */
-  def failure[A](validationError: E): F[A]
+  protected def failure[A](validationError: E): F[A]
 
   /**
    * Raise value into effect.
@@ -22,7 +24,7 @@ trait ValidationServiceAlgebra[F[_], E] {
    * @author Nick Odumo (nodumo@nodumo.com)
    * @param a Success value
    */
-  def success[A](a: A): F[A]
+  protected def success[A](a: A): F[A]
 
   /**
    * Validation service algebra.
@@ -32,7 +34,7 @@ trait ValidationServiceAlgebra[F[_], E] {
    * @param entity Entity
    * @param validationError Validation message
    */
-  def validatedWithBool[Entity](bool: => Boolean, entity: Entity)(validationError: E): F[Entity]
+  protected def validatedWithBool[Entity](bool: => Boolean, entity: Entity)(validationError: E): F[Entity]
 
   /**
    * Validation service algebra.
@@ -42,6 +44,9 @@ trait ValidationServiceAlgebra[F[_], E] {
    * @param entity Entity
    * @param validationError Validation message
    */
-  def validateWithFunction[Entity](predicate: Entity => Boolean, entity: Entity)(validationError: E): F[Entity]
+  protected def validateWithFunction[Entity](predicate: Entity => Boolean, entity: Entity)(
+      validationError: E): F[Entity]
+
+  protected def validateRegex(regex: Regex, string: String)(validationError: ValidationError): F[String]
 
 }
