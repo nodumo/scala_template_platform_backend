@@ -52,17 +52,22 @@ class StringValidationCreditCardApplicativeErrorInterpreter[F[_]: ApplicativeErr
 
 object StringValidationCreditCardApplicativeErrorInterpreter {
 
-  private[interpreters] val Invalid_credit_card_master_amex_number = "Invalid_credit_card_master_amex_number"
+  private[interpreters] val Invalid_credit_card_master_amex_number: ValidationError.Repr =
+    "Invalid_credit_card_master_amex_number"
 
-  private[interpreters] val Invalid_credit_card_discover_card_number = "Invalid_credit_card_discover_card_number"
+  private[interpreters] val Invalid_credit_card_discover_card_number: ValidationError.Repr =
+    "Invalid_credit_card_discover_card_number"
 
-  private[interpreters] val Invalid_credit_card_master_card_number = "Invalid_credit_card_master_card_number"
+  private[interpreters] val Invalid_credit_card_master_card_number: ValidationError.Repr =
+    "Invalid_credit_card_master_card_number"
 
-  private[interpreters] val Invalid_credit_card_visa_mastercard_number = "Invalid_credit_card_visa_mastercard_number"
+  private[interpreters] val Invalid_credit_card_visa_mastercard_number: ValidationError.Repr =
+    "Invalid_credit_card_visa_mastercard_number"
 
-  private[interpreters] val Invalid_credit_card_visa_number = "Invalid_credit_card_visa_number"
+  private[interpreters] val Invalid_credit_card_visa_number: ValidationError.Repr = "Invalid_credit_card_visa_number"
 
-  private[interpreters] val Invalid_credit_card_unioncard_pay_card_code = "Invalid_credit_card_unioncard_pay_card_code"
+  private[interpreters] val Invalid_credit_card_unioncard_pay_card_code: ValidationError.Repr =
+    "Invalid_credit_card_unioncard_pay_card_code"
 
   private[interpreters] val rawErrorMessages: ErrorMessagesCollection =
     Set(

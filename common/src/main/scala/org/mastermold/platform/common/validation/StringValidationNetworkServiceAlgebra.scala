@@ -17,7 +17,7 @@ trait StringValidationNetworkServiceAlgebra[F[_]] {
   def networkWebsite(string: String): F[String]
 
   /**
-   * Network website.
+   * Network email.
    *
    * @author Nick Odumo (nodumo@nodumo.com)
    * @param string String to test

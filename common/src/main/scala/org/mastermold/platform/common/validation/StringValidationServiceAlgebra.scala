@@ -5,9 +5,9 @@ package org.mastermold.platform.common.validation
  *
  * @author Nick Odumo (nodumo@nodumo.com)
  * @tparam F      Effect
- * @tparam RegexT Regular expression representation
+ * @tparam Regex Regular expression representation
  */
-trait StringValidationServiceAlgebra[F[_], RegexT] {
+trait StringValidationServiceAlgebra[F[_], Regex] {
 
   /**
    * Validate that the string is longer than.
@@ -50,6 +50,6 @@ trait StringValidationServiceAlgebra[F[_], RegexT] {
    * @param regex  Regular  expression to test.
    * @param string String to test
    */
-  def isMatchingRegex(regex: RegexT)(string: String): F[String]
+  def isMatchingRegex(regex: Regex)(string: String): F[String]
 
 }
