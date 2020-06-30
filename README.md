@@ -1,4 +1,4 @@
-# (λ)Code Kitt
+# Code Kitt Code-Generator
 
 # ![Cde Generator App](header.png)
 
