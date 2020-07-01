@@ -36,7 +36,7 @@ trait StringPredicatesAlgebra {
    * Check if strings contents are equal.
    *
    * @author Nick Odumo (nodumo@nodumo.com)
-   * @param valueLeft Value 
+   * @param value Value
    */
   def isLengthEmpty(value: String): Boolean
 
