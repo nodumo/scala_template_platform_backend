@@ -12,16 +12,16 @@ class StringPredicatesInterpreter extends StringPredicatesAlgebra{
     !isContentsEqual(valueLeft, valueRight)
 
   override def isLengthEmpty(value: String): Boolean =
-  isContentsEqual(value, "")
+    intPredicate.isGreaterThanOrEqualTo(value.length, 0)
 
   override def isLengthGreaterThan(value: String, length: Int): Boolean =
-    value.length > length
+    intPredicate.isGreaterThan(value.length, length)
 
   override def isLengthEqualTo(value: String, length: Int): Boolean =
-    value.length == length
+    intPredicate.isGreaterThanOrEqualTo(value.length, length)
 
   override def isLengthShorterThan(value: String, length: Int): Boolean =
-    value.length < length
+    intPredicate.isLessThan(value.length, length)
 
   override def isSetContentContain(value: String, setOfAcceptableValues: Set[String]): Boolean =
     setOfAcceptableValues.apply(value)
