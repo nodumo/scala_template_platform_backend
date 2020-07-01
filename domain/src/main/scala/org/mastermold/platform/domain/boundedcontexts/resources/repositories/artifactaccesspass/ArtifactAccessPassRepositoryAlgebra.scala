@@ -18,8 +18,7 @@ trait ArtifactAccessPassRepositoryAlgebra[
   def createNewArtifactAccessPass(
       artifactAccessPass: CheckedInvariant[ArtifactAccessPassAggregate]): F[ArtifactAccessPassAggregate]
 
-  def retrieveArtifactAccessPassById(
-      artifactAccessPassId: ArtifactAccessPassId): F[Option[ArtifactAccessPassAggregate]]
+  def retrieveArtifactAccessPassById(artifactAccessPassId: ArtifactAccessPassId): F[Option[ArtifactAccessPassAggregate]]
 
   def updateExistingArtifactAccessPass(
       artifactAccessPass: CheckedInvariant[ArtifactAccessPassAggregate]): F[Option[ArtifactAccessPassAggregate]]

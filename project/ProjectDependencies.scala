@@ -8,6 +8,8 @@ object ProjectDependencies {
 
   // --- Versions
 
+  private lazy val awsJavaSDKVersion = "2.13.48"
+
   private lazy val catsVersion = "2.1.1"
 
   private lazy val catsEffectVersion = "2.1.3"
@@ -23,6 +25,8 @@ object ProjectDependencies {
   private lazy val fs2Version = "2.4.0"
 
   // --- Libraries
+
+  private lazy val awsJavaSDK = "software.amazon.awssdk" % "aws-sdk-java" % awsJavaSDKVersion
 
   private lazy val catsEffect = "org.typelevel" %% "cats-effect" % catsEffectVersion
 
@@ -114,18 +118,18 @@ object ProjectDependencies {
     baseDependencies ++  Seq(catsLib, jodaScalaLib) ++ monocleMacroDependencies
 
   lazy val infrastructureDependencies: Seq[ModuleID] =
-    baseDependencies ++ Seq(delightNashorn) ++ doobieDependencies ++ http4sDependencies
+    baseDependencies ++ Seq(awsJavaSDK, delightNashorn) ++ doobieDependencies ++ http4sDependencies
 
   // --- Http server configurations
 
   lazy val serverCoreDependencies: Seq[ModuleID] =
-    baseDependencies ++ Seq(delightNashorn) ++ doobieDependencies ++ http4sDependencies
+    baseDependencies ++ http4sDependencies
 
   lazy val serverApiDependencies: Seq[ModuleID] =
-    baseDependencies ++ Seq(delightNashorn) ++ doobieDependencies ++ http4sDependencies
+    baseDependencies ++ Seq() ++ doobieDependencies ++ http4sDependencies
 
   lazy val serverStaticSitesDependencies: Seq[ModuleID] =
-    baseDependencies ++ Seq(delightNashorn) ++ doobieDependencies ++ http4sDependencies
+    baseDependencies ++ Seq() ++ doobieDependencies ++ http4sDependencies
 
 
 }

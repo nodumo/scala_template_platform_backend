@@ -1,4 +1,4 @@
-package org.mastermold.platform.common.units.intepreters
+package org.mastermold.platform.common.units.interpreters
 
 import org.mastermold.platform.common.units.{ Bytes, FactoryServiceBijectionMegabytesBytesAlgebra, Megabytes }
 

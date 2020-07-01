@@ -10,11 +10,11 @@ package object instances {
 
   // --- Instances: Every instance possible
 
-  private[doobie]object all
+  private[doobie] object all
 
   // --- Instances: project
 
-  private[doobie] object common
+  private[doobie] object commons
 
   // --- Instances: Java/Scala
 

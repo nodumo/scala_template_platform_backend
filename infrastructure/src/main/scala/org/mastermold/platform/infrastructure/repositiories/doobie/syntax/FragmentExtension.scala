@@ -5,7 +5,7 @@ import doobie.util.fragment.Fragment
 
 class FragmentExtension(fragment: Fragment) {
 
-  def +++(fragmentToCon: Fragment): Fragment = conjWithSpace(fragment)
+  def +++(fragmentToCon: Fragment): Fragment = conjWithSpace(fragmentToCon)
 
   def conjWithSpace(fragmentToCon: Fragment): Fragment = fragmentToCon ++ fr" " ++ fragment
 
