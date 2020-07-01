@@ -74,6 +74,8 @@ object ProjectDependencies {
 
   private lazy val monocleMacroDependencies  = Seq(monocleCore, monocleMacro)
 
+  private lazy val postgresSQLJDBC = "org.postgresql" % "postgresql" % "42.2.14"
+
   private lazy val shapeless =  "com.chuusai" %% "shapeless" % "2.3.3"
 
   private lazy val scalacheck = "org.scalacheck" % "scalacheck_sjs1_2.13" % "1.14.3"
@@ -107,6 +109,9 @@ object ProjectDependencies {
   // --- Internal configuration
 
   private lazy val baseDependencies = Seq(spec2, scalacheck)
+
+  lazy val projectDependencies: Seq[ModuleID] =
+    Seq(postgresSQLJDBC)
 
   lazy val applicationDependencies: Seq[ModuleID] =
     baseDependencies ++ Seq(catsLib, catsEffect, jodaScalaLib)

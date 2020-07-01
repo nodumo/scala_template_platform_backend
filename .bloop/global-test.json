@@ -12,13 +12,20 @@
         ],
         "dependencies": [
             "global",
+            "application-test",
             "common-test",
+            "domain-test",
             "bigData-test",
-            "infrastructure-test"
+            "infrastructure-test",
+            "infrastructureintegrations-test",
+            "lambda-test",
+            "serverapi-test",
+            "servercore-test",
+            "serverstaticwebsites-test"
         ],
         "classpath": [
             "F:\\Projects\\multiplatform\\.bloop\\global\\scala-2.12\\classes",
-            "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar"
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.14\\postgresql-42.2.14.jar"
         ],
         "out": "F:\\Projects\\multiplatform\\.bloop\\global",
         "classesDir": "F:\\Projects\\multiplatform\\.bloop\\global\\scala-2.12\\test-classes",
@@ -77,7 +84,7 @@
                 "-Ywarn-unused:patvars",
                 "-Ywarn-unused:privates",
                 "-Ywarn-value-discard",
-                "-Xplugin:C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\wartremover\\wartremover_2.12\\2.2.1\\wartremover_2.12-2.2.1.jar"
+                "-Yrangepos"
             ],
             "jars": [
                 "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\jline.jar",
@@ -155,46 +162,24 @@
         "resolution": {
             "modules": [
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-library",
-                    "version": "2.12.3",
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.2.14",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-library",
-                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar"
+                            "name": "postgresql",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.14\\postgresql-42.2.14.jar"
                         },
                         {
-                            "name": "scala-library",
-                            "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-javadoc.jar"
-                        },
-                        {
-                            "name": "scala-library",
+                            "name": "postgresql",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
-                    "name": "scala-library",
-                    "version": "2.12.3",
-                    "configurations": "optional",
-                    "artifacts": [
-                        {
-                            "name": "scala-library",
-                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.14\\postgresql-42.2.14-sources.jar"
                         },
                         {
-                            "name": "scala-library",
+                            "name": "postgresql",
                             "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-javadoc.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.3\\scala-library-2.12.3-sources.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.14\\postgresql-42.2.14-javadoc.jar"
                         }
                     ]
                 }

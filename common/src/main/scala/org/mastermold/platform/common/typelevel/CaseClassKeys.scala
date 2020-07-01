@@ -30,3 +30,5 @@ object CaseClassKeys {
   def apply[T](implicit attributes: CaseClassKeys[T]): CaseClassKeys[T] = attributes
 
 }
+
+ 

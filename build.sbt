@@ -20,7 +20,7 @@ scalaVersion in ThisBuild := "2.12.3"
 
 lazy val global = project
   .in(file("."))
-  .settings(settings ++ flyAwaySettings)
+  .settings(settings)
   .disablePlugins(AssemblyPlugin)
   .aggregate(
     application,
@@ -34,7 +34,6 @@ lazy val global = project
     servercore,
     serverstaticwebsites
   )
-  .enablePlugins(FlywayPlugin)
 
 lazy val application = project
   .settings(
@@ -77,7 +76,7 @@ lazy val bigData = project
 lazy val infrastructure = project
   .settings(
     name := "infrastructure",
-    settings,
+    settings ++ flyAwaySettings ++ Seq(libraryDependencies := ProjectDependencies.projectDependencies),
     assemblySettings,
     libraryDependencies := ProjectDependencies.infrastructureDependencies
   )
@@ -86,6 +85,7 @@ lazy val infrastructure = project
     domain,
     infrastructureintegrations
   )
+  .enablePlugins(FlywayPlugin)
 
 lazy val infrastructureintegrations = project
   .settings(
@@ -184,10 +184,10 @@ lazy val scalafmtSettings =
 
 lazy val flyAwaySettings =
   Seq(
-    flywayUrl := "jdbc:hsqldb:file:target/flyway_sample;shutdown=true",
-    flywayUser := "SA",
-    flywayPassword := "",
-    flywayLocations += "db/migration",
+    flywayUrl := "jdbc:postgresql://ruby.db.elephantsql.com/wmaewggi",
+    flywayUser := "wmaewggi",
+    flywayPassword := "uSd1sMbGsAfcK809bWg1PBM4snlGZqhX",
+    flywayLocations += baseDirectory.value.getAbsolutePath ++ "\\migrations",
     flywayUrl in Test := "jdbc:hsqldb:file:target/flyway_sample;shutdown=true",
     flywayUser in Test := "SA",
     flywayPassword in Test := ""

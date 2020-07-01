@@ -14,12 +14,18 @@
             
         ],
         "classpath": [
-            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1.jar",
-            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1.jar",
-            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1.jar",
-            "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-reflect.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalacheck\\scalacheck_sjs1_2.13\\1.14.3\\scalacheck_sjs1_2.13-1.14.3.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.1\\cats-core_2.12-2.1.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.1\\cats-macros_2.12-2.1.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-test-interface_2.13\\1.0.0\\scalajs-test-interface_2.13-1.0.0.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6.jar",
             "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-library.jar",
-            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6.jar"
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.12\\2.3.3\\shapeless_2.12-2.3.3.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.1\\cats-kernel_2.12-2.1.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\macro-compat_2.12\\1.1.1\\macro-compat_2.12-1.1.1.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-library_2.13\\1.0.0\\scalajs-library_2.13-1.0.0.jar",
+            "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\nscala-time\\nscala-time_2.12\\2.24.0\\nscala-time_2.12-2.24.0.jar"
         ],
         "out": "F:\\Projects\\multiplatform\\.bloop\\common",
         "classesDir": "F:\\Projects\\multiplatform\\.bloop\\common\\scala-2.12\\classes",
@@ -145,7 +151,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk1.8.0_161\\jre",
                 "options": [
-                    "-Duser.dir=F:\\Projects\\multiplatform"
+                    "-Duser.dir=F:\\Projects\\multiplatform\\common"
                 ]
             },
             "mainClass": [
@@ -155,90 +161,134 @@
         "resolution": {
             "modules": [
                 {
-                    "organization": "org.typelevel",
-                    "name": "cats-core_2.12",
-                    "version": "1.6.1",
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_sjs1_2.13",
+                    "version": "1.14.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "cats-core_2.12",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1.jar"
+                            "name": "scalacheck_sjs1_2.13",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalacheck\\scalacheck_sjs1_2.13\\1.14.3\\scalacheck_sjs1_2.13-1.14.3.jar"
                         },
                         {
-                            "name": "cats-core_2.12",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1-sources.jar"
-                        },
-                        {
-                            "name": "cats-core_2.12",
+                            "name": "scalacheck_sjs1_2.13",
                             "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\1.6.1\\cats-core_2.12-1.6.1-javadoc.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalacheck\\scalacheck_sjs1_2.13\\1.14.3\\scalacheck_sjs1_2.13-1.14.3-javadoc.jar"
+                        },
+                        {
+                            "name": "scalacheck_sjs1_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalacheck\\scalacheck_sjs1_2.13\\1.14.3\\scalacheck_sjs1_2.13-1.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1-sources.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1-javadoc.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.typelevel",
-                    "name": "cats-kernel_2.12",
-                    "version": "1.6.1",
+                    "name": "cats-core_2.12",
+                    "version": "2.1.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "cats-kernel_2.12",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1.jar"
+                            "name": "cats-core_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.1\\cats-core_2.12-2.1.1.jar"
                         },
                         {
-                            "name": "cats-kernel_2.12",
-                            "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1-javadoc.jar"
-                        },
-                        {
-                            "name": "cats-kernel_2.12",
+                            "name": "cats-core_2.12",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\1.6.1\\cats-kernel_2.12-1.6.1-sources.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.1\\cats-core_2.12-2.1.1-sources.jar"
+                        },
+                        {
+                            "name": "cats-core_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.12\\2.1.1\\cats-core_2.12-2.1.1-javadoc.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.typelevel",
                     "name": "cats-macros_2.12",
-                    "version": "1.6.1",
+                    "version": "2.1.1",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "cats-macros_2.12",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.1\\cats-macros_2.12-2.1.1.jar"
                         },
                         {
                             "name": "cats-macros_2.12",
                             "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1-javadoc.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.1\\cats-macros_2.12-2.1.1-javadoc.jar"
                         },
                         {
                             "name": "cats-macros_2.12",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\1.6.1\\cats-macros_2.12-1.6.1-sources.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-macros_2.12\\2.1.1\\cats-macros_2.12-2.1.1-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.3",
+                    "organization": "org.scala-js",
+                    "name": "scalajs-test-interface_2.13",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-reflect",
-                            "path": "C:\\Users\\sivab\\.sbt\\boot\\scala-2.12.3\\lib\\scala-reflect.jar"
+                            "name": "scalajs-test-interface_2.13",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-test-interface_2.13\\1.0.0\\scalajs-test-interface_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "scala-reflect",
-                            "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.3\\scala-reflect-2.12.3-javadoc.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
+                            "name": "scalajs-test-interface_2.13",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.3\\scala-reflect-2.12.3-sources.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-test-interface_2.13\\1.0.0\\scalajs-test-interface_2.13-1.0.0-sources.jar"
+                        },
+                        {
+                            "name": "scalajs-test-interface_2.13",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-test-interface_2.13\\1.0.0\\scalajs-test-interface_2.13-1.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6-javadoc.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6-sources.jar"
                         }
                     ]
                 },
@@ -265,24 +315,112 @@
                     ]
                 },
                 {
-                    "organization": "org.typelevel",
-                    "name": "machinist_2.12",
-                    "version": "0.6.6",
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.12",
+                    "version": "2.3.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "machinist_2.12",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6.jar"
+                            "name": "shapeless_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.12\\2.3.3\\shapeless_2.12-2.3.3.jar"
                         },
                         {
-                            "name": "machinist_2.12",
+                            "name": "shapeless_2.12",
                             "classifier": "sources",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6-sources.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.12\\2.3.3\\shapeless_2.12-2.3.3-sources.jar"
                         },
                         {
-                            "name": "machinist_2.12",
+                            "name": "shapeless_2.12",
                             "classifier": "javadoc",
-                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\machinist_2.12\\0.6.6\\machinist_2.12-0.6.6-javadoc.jar"
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.12\\2.3.3\\shapeless_2.12-2.3.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.1\\cats-kernel_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.1\\cats-kernel_2.12-2.1.1-javadoc.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.12\\2.1.1\\cats-kernel_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "macro-compat_2.12",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "macro-compat_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\macro-compat_2.12\\1.1.1\\macro-compat_2.12-1.1.1.jar"
+                        },
+                        {
+                            "name": "macro-compat_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\macro-compat_2.12\\1.1.1\\macro-compat_2.12-1.1.1-javadoc.jar"
+                        },
+                        {
+                            "name": "macro-compat_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\macro-compat_2.12\\1.1.1\\macro-compat_2.12-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-js",
+                    "name": "scalajs-library_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalajs-library_2.13",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-library_2.13\\1.0.0\\scalajs-library_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-library_2.13\\1.0.0\\scalajs-library_2.13-1.0.0-javadoc.jar"
+                        },
+                        {
+                            "name": "scalajs-library_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-js\\scalajs-library_2.13\\1.0.0\\scalajs-library_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.12",
+                    "version": "2.24.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.12",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\nscala-time\\nscala-time_2.12\\2.24.0\\nscala-time_2.12-2.24.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.12",
+                            "classifier": "javadoc",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\nscala-time\\nscala-time_2.12\\2.24.0\\nscala-time_2.12-2.24.0-javadoc.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\sivab\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\nscala-time\\nscala-time_2.12\\2.24.0\\nscala-time_2.12-2.24.0-sources.jar"
                         }
                     ]
                 },
