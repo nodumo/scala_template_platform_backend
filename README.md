@@ -1,4 +1,4 @@
-# (λ)Template generator project platform mono-repo 
+# Code Kitt Code-Generator
 
 # ![Cde Generator App](header.png)
 
