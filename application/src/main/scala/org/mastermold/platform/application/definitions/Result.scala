@@ -3,7 +3,7 @@ package org.mastermold.platform.application.definitions
 /**
  * Application result.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam Payload Payload
  * @param payload Payload
  */

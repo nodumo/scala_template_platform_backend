@@ -5,7 +5,7 @@ import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggr
 /**
  * ArtifactFile repository algebra.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F               Effect
  * @tparam  ArtifactFileId ArtifactFileId to persist
  * @tparam  ArtifactFile   ArtifactFile to persist

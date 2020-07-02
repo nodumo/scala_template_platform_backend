@@ -6,7 +6,7 @@ import org.mastermold.platform.infrastructure.chronomter.ReadCurrentTimeServiceA
 /**
  * Read current timestamp.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @see https://www.postgresql.org/docs/9.6
  * @tparam F Effect
  */

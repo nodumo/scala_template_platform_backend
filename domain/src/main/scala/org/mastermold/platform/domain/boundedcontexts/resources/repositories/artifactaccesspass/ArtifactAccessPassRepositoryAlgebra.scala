@@ -5,7 +5,7 @@ import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggr
 /**
  * ArtifactAccessPass repository algebra.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F                    Effect
  * @tparam ArtifactAccessPassId ArtifactAccessPassId to persist
  * @tparam ArtifactAccessPass   ArtifactAccessPass to persist

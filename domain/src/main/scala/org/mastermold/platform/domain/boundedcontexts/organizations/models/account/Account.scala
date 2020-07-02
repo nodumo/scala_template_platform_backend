@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
 /**
  * Account aggregate
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Representing the user's authorized account
  * @param aggregateId             Aggregate id
  * @param credentialEmail         Credential email

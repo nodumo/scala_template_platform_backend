@@ -7,7 +7,7 @@ import shapeless.HList //import shapeless.{ HList, LabelledGeneric }
 /**
  * To attributes of case class.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @see https://svejcar.dev/posts/2019/10/22/extracting-case-class-field-names-with-shapeless/
  * @tparam T Type of sorts
  */

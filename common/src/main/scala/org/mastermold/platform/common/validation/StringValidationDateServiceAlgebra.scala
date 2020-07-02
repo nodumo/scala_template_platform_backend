@@ -3,7 +3,7 @@ package org.mastermold.platform.common.validation
 /**
  * String date format validation algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  */
 trait StringValidationDateServiceAlgebra[F[_]] {

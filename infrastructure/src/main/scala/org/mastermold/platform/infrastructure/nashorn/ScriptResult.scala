@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.nashorn
 /**
  * Script result.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  */
 sealed trait ScriptResult
 

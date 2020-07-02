@@ -5,7 +5,7 @@ import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggr
 /**
  * Asset repository algebra.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F        Effect
  * @tparam  AssetId AssetId to persist
  * @tparam  Asset   Asset to persist

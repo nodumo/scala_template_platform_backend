@@ -3,7 +3,7 @@ package org.mastermold.platform.common.validation
 /**
  * String network validation service algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  */
 trait StringValidationNetworkServiceAlgebra[F[_]] {
@@ -11,7 +11,7 @@ trait StringValidationNetworkServiceAlgebra[F[_]] {
   /**
    * Network email.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param string String to test
    */
   def networkEmail(string: String): F[String]
@@ -19,7 +19,7 @@ trait StringValidationNetworkServiceAlgebra[F[_]] {
   /**
    * Network website.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param string String to test
    */
   def networkWebsite(string: String): F[String]

@@ -5,7 +5,7 @@ import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggr
 /**
  * ArtifactImage repository algebra.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F                Effect
  * @tparam  ArtifactImageId ArtifactImageId to persist
  * @tparam  ArtifactImage   ArtifactImage to persist

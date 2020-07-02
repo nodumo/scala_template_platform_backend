@@ -15,7 +15,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
  * that require a diverse set of skills and expertise.
  * " - Domain expert
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param aggregateId Aggregate id
  * @param description Description of the Organization
  * @param isTwoFactorMandatory   Is two-factor authentication enabled

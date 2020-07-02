@@ -11,7 +11,7 @@ import scala.concurrent.duration.Duration
 /**
  * Nashorn factory service.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Creating new Nashorn delight interpreter
  * @param delightConfig Executor service
  */

@@ -7,7 +7,7 @@ import shapeless._
 /**
  * Show loggable string.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam A Value to safe log entry
  */
 trait ShowLoggable[A] {

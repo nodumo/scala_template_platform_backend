@@ -3,7 +3,7 @@ package org.mastermold.platform.servercore.middleware
 /**
   * HTTP4S middlewear.
   *
-  * @author Nick Odumo (nodumo@nodumo.com)
+  * @author Grumpy Cat (grumpycat@codekitt.com)
   * @tparam F Effect monad
   */
 trait MiddlewearAlgebra[F[_]] {
@@ -11,7 +11,7 @@ trait MiddlewearAlgebra[F[_]] {
   /**
     * HTTP4S middlewear transformer.
     *
-    * @author Nick Odumo (nodumo@nodumo.com)
+    * @author Grumpy Cat (grumpycat@codekitt.com)
     */
   def handle(): Unit
 

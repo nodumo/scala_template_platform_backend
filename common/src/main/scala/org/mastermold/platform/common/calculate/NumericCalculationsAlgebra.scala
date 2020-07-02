@@ -3,7 +3,7 @@ package org.mastermold.platform.common.calculate
 /**
   * Numeric calculations algebra.
   *
-  * @author Nick Odumo (nodumo@nodumo.com)
+  * @author Grumpy Cat (grumpycat@codekitt.com)
   * @tparam N Numeric type
   */
 trait NumericCalculationsAlgebra[N] {

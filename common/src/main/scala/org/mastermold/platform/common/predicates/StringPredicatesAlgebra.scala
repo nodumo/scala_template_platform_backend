@@ -5,7 +5,7 @@ import scala.util.matching.Regex
 /**
  * String predicates algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @see https://landau.github.io/predicate
  */
 trait StringPredicatesAlgebra {
@@ -15,7 +15,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if strings contents are not equal.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param valueLeft  Value left
    * @param valueRight Value right
    */
@@ -24,7 +24,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if strings contents are equal.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param valueLeft  Value left
    * @param valueRight Value right
    */
@@ -35,7 +35,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if strings contents are equal.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value Value
    */
   def isLengthEmpty(value: String): Boolean
@@ -43,7 +43,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if strings length equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value Value left
    * @param length     Length to compare to
    */
@@ -52,7 +52,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if string length greater than.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value   Value
    * @param length     Length to compare to
    */
@@ -61,7 +61,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if string length shorter than.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value Value 
    * @param length Length to compare to
    */
@@ -72,7 +72,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if string is not found in defined set.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value                String
    * @param setOfAcceptableValues Set acceptable values
    */
@@ -81,7 +81,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if string is found in defined set.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value                String
    * @param setOfAcceptableValues Set acceptable values
    */
@@ -92,7 +92,7 @@ trait StringPredicatesAlgebra {
   /**
    * Check if string matches regex.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param value                String
    * @param regex  Regex to test
    */

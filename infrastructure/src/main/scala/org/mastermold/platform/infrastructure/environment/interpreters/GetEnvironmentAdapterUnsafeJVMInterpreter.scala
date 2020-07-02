@@ -8,7 +8,7 @@ import org.mastermold.platform.infrastructure.environment.interpreters.{
 /**
  * Unsafe environment as data.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  */
 final class GetEnvironmentAdapterUnsafeJVMInterpreter
     extends GetEnvironmentAdapterServiceUnsafeAlgebra[Interpreter.Key, Interpreter.Value] {

@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.definitions
 /**
  * Equality for domain-aggregate.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam V Domain value
  * @tparam A Domain Aggregate
  */

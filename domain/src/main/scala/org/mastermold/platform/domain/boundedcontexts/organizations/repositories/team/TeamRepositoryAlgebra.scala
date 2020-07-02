@@ -5,7 +5,7 @@ import org.mastermold.platform.domain.definitions.{ CheckedInvariant, DomainAggr
 /**
  * Team repository algebra.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F       Effect
  * @tparam  TeamId TeamId to persist
  * @tparam  Team   Team to persist

@@ -3,7 +3,7 @@ package org.mastermold.platform.application.definitions
 /**
   * Application transaction script algebra.
   *
-  * @author Nick Odumo (nodumo@nodumo.com
+  * @author Grumpy Cat (grumpycat@codekitt.com
   * @usecase Modelling the application input
   * @tparam F Effect
   * @tparam InputEvent Input event

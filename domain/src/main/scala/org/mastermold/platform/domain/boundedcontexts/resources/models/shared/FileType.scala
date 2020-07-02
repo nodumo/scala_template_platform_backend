@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.boundedcontexts.resources.models.shared
 /**
  * Extension values.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @param extension Extension value
  */
 sealed abstract class FileType(val extension: String)

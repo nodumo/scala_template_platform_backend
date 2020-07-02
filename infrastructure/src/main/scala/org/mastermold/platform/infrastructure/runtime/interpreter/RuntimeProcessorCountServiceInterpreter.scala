@@ -8,7 +8,7 @@ import org.mastermold.platform.infrastructure.runtime.interpreter.{
 /**
  * Runtime processor count services interpreter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  */
 final class RuntimeProcessorCountServiceInterpreter extends RuntimeProcessorCountServiceAlgebra[Interpreter.Count] {
 

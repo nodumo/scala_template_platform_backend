@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.definitions
 /**
  * Invariant domain object.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam A Domain entity
  * @param value Domain entity.
  */

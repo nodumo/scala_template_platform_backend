@@ -9,7 +9,7 @@ package org.mastermold.platform.serverstaticwebsites
  *  / ____/ / /_/ / /_/ __/ /_/ / /  / / / / / /
  * /_/   /_/\__,_/\__/_/  \____/_/  /_/ /_/ /_/ ©
  *
- * (c) Platform Nick Odumo (nodumo@nodumo.com)
+ * (c) Platform Grumpy Cat (grumpycat@codekitt.com)
  *
  * Server static website application.
  */

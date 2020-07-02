@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.http
 /**
  * Transaction context object for a given request.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param name HTTP request name
  */
 sealed abstract class HttpVerb(val name: String) {

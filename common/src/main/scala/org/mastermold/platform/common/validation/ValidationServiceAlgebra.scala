@@ -5,7 +5,7 @@ import scala.util.matching.Regex
 /**
  * Validation service algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  */
 trait ValidationServiceAlgebra[F[_], E] {
@@ -13,7 +13,7 @@ trait ValidationServiceAlgebra[F[_], E] {
   /**
    * Failure
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param validationError Validation message
    */
   protected def failure[A](validationError: E): F[A]
@@ -21,7 +21,7 @@ trait ValidationServiceAlgebra[F[_], E] {
   /**
    * Raise value into effect.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param a Success value
    */
   protected def success[A](a: A): F[A]
@@ -29,7 +29,7 @@ trait ValidationServiceAlgebra[F[_], E] {
   /**
    * Validation service algebra.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param bool Predicate result
    * @param entity Entity
    * @param validationError Validation message
@@ -39,7 +39,7 @@ trait ValidationServiceAlgebra[F[_], E] {
   /**
    * Validation service algebra.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param predicate Predicate function to apply on entity
    * @param entity Entity
    * @param validationError Validation message

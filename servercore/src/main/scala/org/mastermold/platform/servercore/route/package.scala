@@ -6,7 +6,7 @@ import java.util.concurrent.Executors
 /**
   * HTTP4S .
   *
-  * @author Nick Odumo (nodumo@nodumo.com)
+  * @author Grumpy Cat (grumpycat@codekitt.com)
   */
 package object route {
 

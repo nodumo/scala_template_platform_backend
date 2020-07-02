@@ -5,7 +5,7 @@ import java.io.Writer
 /**
  * Custom writer based on Java writer interface
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Initially conceived for use for outputting what is happening within
  *          the Java Delight nashorn interpreter.
  */

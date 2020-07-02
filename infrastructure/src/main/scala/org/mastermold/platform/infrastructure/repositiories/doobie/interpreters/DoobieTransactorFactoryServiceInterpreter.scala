@@ -13,7 +13,7 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.interpreters.
 /**
  * Transactor factory service interpreter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  */
 final class DoobieTransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
@@ -22,7 +22,7 @@ final class DoobieTransactorFactoryServiceInterpreter[F[_]: ContextShift: Async]
   /**
    * Take configuration and produce transactor.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param from Configuration object
    */
   override def create(from: Interpreter.From): Interpreter.To[F] =

@@ -46,7 +46,7 @@ Define generators of your choosing and automate the heck out of your coding task
    * build.sbt
    
 ## Maintainers
-- [Nick Odumo](https://github.com/nodumo) 
+- [Grumpy Cat](https://github.com/nodumo) 
 
 ## License
 MIT © [Code Generator application](https://github.com/nodumo/scala_template_platform_backend)

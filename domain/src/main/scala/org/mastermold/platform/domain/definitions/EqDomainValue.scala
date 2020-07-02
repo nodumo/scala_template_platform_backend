@@ -3,7 +3,7 @@ package org.mastermold.platform.domain.definitions
 /**
  * Equality for domain-value.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam A Domain Aggregate
  */
 trait EqDomainValue[A] {

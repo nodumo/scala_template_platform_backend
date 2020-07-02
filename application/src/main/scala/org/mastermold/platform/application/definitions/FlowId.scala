@@ -5,7 +5,7 @@ import org.mastermold.platform.common.logging.ShowLoggable
 /**
  * Flow id for the for the application transaction.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param value Value
  */
 final case class FlowId(value: FlowId.Repr) extends AnyVal

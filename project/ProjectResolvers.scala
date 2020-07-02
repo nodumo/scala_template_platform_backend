@@ -3,7 +3,7 @@ import sbt._
 /**
  * Project resolvers.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Defining project resolvers
  */
 object ProjectResolvers {

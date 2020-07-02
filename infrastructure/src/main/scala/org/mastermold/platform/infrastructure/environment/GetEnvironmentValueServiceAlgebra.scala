@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.environment
 /**
  * Get environment value from the current platform.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  * @tparam Key Key value
  * @tparam Value Environment value

@@ -9,7 +9,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
  * "An organization or organisation is an entity, such as a company, an institution, or an association,
  * comprising one or more people and having a particular purpose." - Domain expert
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param aggregateId            Aggregate id
  * @param declaredPersonnelCount Declared head-count for
  * @param description            Description of the Organization

@@ -3,7 +3,7 @@ package org.mastermold.platform.common.validation
 /**
  * Checked date-string YYYYMMDDHHMISS string.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param value Value
  */
 final case class CheckedDateTimeStringYYYYMMDDHHMISS private[validation] (

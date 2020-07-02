@@ -9,7 +9,7 @@ import org.mastermold.platform.infrastructure.logging.interpreters.{
 /**
  * Doobie logging handler.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Logging Doobie unsafe transactions
  * @param loggingUnsafeAdapter Logging unsafe adapter
  */

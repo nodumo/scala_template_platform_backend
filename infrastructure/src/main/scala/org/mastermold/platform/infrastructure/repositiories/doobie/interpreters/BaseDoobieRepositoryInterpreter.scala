@@ -8,7 +8,7 @@ import org.mastermold.platform.infrastructure.repositiories.doobie.GenAggregateC
 /**
  * Base doobie aggregate repository.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @see Postgres docs. Be mindful of full SQL scans:
  *      https://www.postgresql.org/docs/9.1/rules-update.html
  * @tparam V Domain values

@@ -3,7 +3,7 @@ package org.mastermold.platform.common.softwarepatterns
 /**
  * Factory service effectful bijection algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  * @tparam LeftSide Left side
  * @tparam RightSide Right side

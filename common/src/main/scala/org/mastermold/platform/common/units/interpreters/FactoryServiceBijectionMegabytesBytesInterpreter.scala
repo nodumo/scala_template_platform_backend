@@ -5,7 +5,7 @@ import org.mastermold.platform.common.units.{ Bytes, FactoryServiceBijectionMega
 /**
  * Bijection between values.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Common translation tool for translating between bytes count and megabytes count
  */
 final class FactoryServiceBijectionMegabytesBytesInterpreter

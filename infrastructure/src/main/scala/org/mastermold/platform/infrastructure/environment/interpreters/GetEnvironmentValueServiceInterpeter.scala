@@ -9,7 +9,7 @@ import org.mastermold.platform.infrastructure.environment.{
 /**
  * Get environment values service interpreter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  */
 final class GetEnvironmentValueServiceInterpeter[F[_]]

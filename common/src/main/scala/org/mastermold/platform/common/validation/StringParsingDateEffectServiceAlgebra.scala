@@ -3,7 +3,7 @@ package org.mastermold.platform.common.validation
 /**
  * String date parsing algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Parse date values
  * @tparam F Effect
  * @tparam DateFormatYYYYMMDD Format YYYYMMDD

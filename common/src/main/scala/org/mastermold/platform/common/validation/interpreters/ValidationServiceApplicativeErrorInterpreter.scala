@@ -9,7 +9,7 @@ import scala.util.matching.Regex
 /**
  * Validation service interpreter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  * @param monadApplicative Monad error
  */
@@ -20,7 +20,7 @@ abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](
   /**
    * Smart-constructor for applicative error channel.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam E Error channel
    * @param errorValue Error value
    */
@@ -29,7 +29,7 @@ abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](
   /**
    * Smart-constructor for applicative success channel.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam A Value channel
    * @param successValue Success value
    */
@@ -38,7 +38,7 @@ abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](
   /**
    * Validated with condition.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Entity Value
    * @param bool Condition to evaluate for truth
    * @param entity Entity to put in the success channel
@@ -50,7 +50,7 @@ abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](
   /**
    * Validated with predicate application.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Entity Value
    * @param predicate Predicate to check on the given entity
    * @param entity Entity to apply predicate on
@@ -62,7 +62,7 @@ abstract class ValidationServiceApplicativeErrorInterpreter[F[_]](
   /**
    * Test regular expression on string.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @param regex Regex to test with
    * @param string String to test against
    * @param validationError Validation message

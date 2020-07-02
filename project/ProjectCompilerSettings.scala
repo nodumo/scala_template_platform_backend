@@ -3,7 +3,7 @@ import sbt._
 /**
  * Project compiler settings.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Defining project compiler settings
  */
 object ProjectCompilerSettings {

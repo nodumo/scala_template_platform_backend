@@ -15,7 +15,7 @@ import org.mastermold.platform.domain.definitions.DomainValue
  *
  *  " - Domain Expert
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param value Value
  */
 final case class IsTwoFactorMandatory private[domain] (value: IsTwoFactorMandatory.Repr) extends DomainValue

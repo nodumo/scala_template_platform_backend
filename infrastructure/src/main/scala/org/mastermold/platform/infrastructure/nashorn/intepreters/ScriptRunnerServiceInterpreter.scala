@@ -17,7 +17,7 @@ import org.mastermold.platform.infrastructure.nashorn.intepreters.{ ScriptRunner
 /**
  * Script runner service interpreter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Effectful Script runner service
  *          Uses effect type-classes from Cats, may at some point switch to some other effect
  *          system

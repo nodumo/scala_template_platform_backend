@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.DomainValue
 /**
  * Host provider.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @param value Foreign table value
  */
 sealed abstract class HostProvider(val value: HostProvider.Repr) extends DomainValue

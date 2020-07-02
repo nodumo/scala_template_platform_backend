@@ -11,7 +11,7 @@ package object util {
     | *  / ____/ / /_/ / /_/ __/ /_/ / /  / / / / / /
     | * /_/   /_/\__,_/\__/_/  \____/_/  /_/ /_/ /_/ ©
     | *
-    | * (c) Platform Nick Odumo (nodumo@nodumo.com)
+    | * (c) Platform Grumpy Cat (grumpycat@codekitt.com)
     | *
     | * For the full copyright and license information, please view the LICENSE
     | * file that was distributed with this source code.

@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.repositiories.doobie
 /**
  * Doobie encode/decode related instances.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @usecase This will be mostly Put & Get instances for [[doobie]]
  */
 package object instances {

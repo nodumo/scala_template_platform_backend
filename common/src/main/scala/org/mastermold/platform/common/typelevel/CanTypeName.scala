@@ -5,7 +5,7 @@ import scala.reflect.ClassTag
 /**
  * Get type-name for a particular type.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam T Type of sorts
  */
 trait CanTypeName[T] {

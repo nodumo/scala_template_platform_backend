@@ -3,7 +3,7 @@ package org.mastermold.platform.common.softwarepatterns
 /**
  * Factory service bijection algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam From Source
  * @tparam To Target
  */

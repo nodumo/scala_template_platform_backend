@@ -8,7 +8,7 @@ import org.mastermold.platform.common.softwarepatterns.FactoryServiceEffectfulAl
  * In domain driven design (FP especially) it is a commonly establish principle that
  * we should seek to work with checked invariant types to prevent unwanted states from arising in the application.
  *
- * @author Nick Odumo (nodumowebdev@gmail.com)
+ * @author Grumpy Cat (nodumowebdev@gmail.com)
  * @tparam F Effect
  * @tparam Repr Domain entity
  * @tparam DomainEntityT Domain entity type

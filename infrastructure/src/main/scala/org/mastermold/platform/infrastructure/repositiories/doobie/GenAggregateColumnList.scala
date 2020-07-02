@@ -8,7 +8,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
 /**
  * Get column list for the aggregate object.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam Aggregate Aggregate column list
  */
 trait GenAggregateColumnList[Aggregate <: DomainAggregate[_]] {

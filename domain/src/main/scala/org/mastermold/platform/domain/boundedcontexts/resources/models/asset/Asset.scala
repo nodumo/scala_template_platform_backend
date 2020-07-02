@@ -7,7 +7,7 @@ import org.mastermold.platform.domain.definitions.DomainAggregate
 /**
  * Asset aggregate
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param aggregateId Aggregate id
  * @param description Description
  * @param name        Name

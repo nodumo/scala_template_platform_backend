@@ -10,7 +10,7 @@ import org.mastermold.platform.infrastructure.execution.interpreters.{
 /**
  * Execution context factory service.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Create an execution context from a processor count
  */
 final class ExecutionContextFactoryServiceJavaExecutorServiceInterpreter

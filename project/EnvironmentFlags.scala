@@ -1,7 +1,7 @@
 /**
  * Environment flags.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  */
 object EnvironmentFlags {
 

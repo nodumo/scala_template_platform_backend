@@ -5,7 +5,7 @@ import org.mastermold.platform.common.logging.{ SafeLogString, ShowLoggable }
 /**
  * Script source definitions.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param name Name
  * @param source Source string
  * @param bindings Bindings map

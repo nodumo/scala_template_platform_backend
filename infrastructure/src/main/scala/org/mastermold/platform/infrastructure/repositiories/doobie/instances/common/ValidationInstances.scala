@@ -12,7 +12,7 @@ import org.mastermold.platform.common.validation.{
 /**
  * Validation instances.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Validation instances for checked values
  */
 trait ValidationInstances {

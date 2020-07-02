@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.environment
 /**
  * Environment unsafe adapter.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @usecase Environment unsafe
  * @tparam Key Key
  * @tparam Value Value

@@ -3,7 +3,7 @@ package org.mastermold.platform.infrastructure.randomizer
 /**
  * Random value service algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam F Effect
  * @tparam Value Environment value
  */

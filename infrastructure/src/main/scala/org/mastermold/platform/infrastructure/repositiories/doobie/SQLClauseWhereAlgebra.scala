@@ -5,7 +5,7 @@ import doobie.util.Put
 /**
  * Where clause mixing query algebra.
  *
- * @author Nick Odumo (nodumo@nodumo.com
+ * @author Grumpy Cat (grumpycat@codekitt.com
  * @tparam SQLColumnNameT Name of the column
  * @tparam SQLQueryFragment Query fragment
  */
@@ -16,7 +16,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where is equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */
@@ -26,7 +26,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where is not equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */
@@ -38,7 +38,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where greater than.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */
@@ -48,7 +48,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where greater than or equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */
@@ -58,7 +58,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where less than or equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */
@@ -68,7 +68,7 @@ trait SQLClauseWhereAlgebra[SQLColumnNameT, SQLQueryFragment] {
   /**
    * Where less than or equal to.
    *
-   * @author Nick Odumo (nodumo@nodumo.com)
+   * @author Grumpy Cat (grumpycat@codekitt.com)
    * @tparam Column Column type
    * @param sqlColumnNameOption Optional column name
    */

@@ -3,7 +3,7 @@ package org.mastermold.platform.common.validation
 /**
  * Checked date-string YYYYMMDD string.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @example {{{
  *  val dateString = "2011-08-11"
  * }}}

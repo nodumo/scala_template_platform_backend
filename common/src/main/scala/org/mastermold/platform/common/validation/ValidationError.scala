@@ -6,7 +6,7 @@ import org.mastermold.platform.common.logging.ShowLoggable
 /**
  * Validation error.
  *
- * @author Nick Odumo (nodumo@nodumo.com)
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param value Underlying value
  */
 final case class ValidationError private[validation] (value: ValidationError.Repr) extends AnyVal
