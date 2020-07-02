@@ -7,7 +7,7 @@ import org.mastermold.platform.domain.definitions.DomainValue
 /**
  * Pass type for the resource
  *
- * @author Grumpy Cat (grumpycat@codekitt.com
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @param value Foreign key.
  */
 sealed abstract class PassType(val value: PassType.Repr) extends DomainValue

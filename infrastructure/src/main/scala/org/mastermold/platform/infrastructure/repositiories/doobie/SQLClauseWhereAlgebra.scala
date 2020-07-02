@@ -5,7 +5,7 @@ import doobie.util.Put
 /**
  * Where clause mixing query algebra.
  *
- * @author Grumpy Cat (grumpycat@codekitt.com
+ * @author Grumpy Cat (grumpycat@codekitt.com)
  * @tparam SQLColumnNameT Name of the column
  * @tparam SQLQueryFragment Query fragment
  */

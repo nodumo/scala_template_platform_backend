@@ -3,7 +3,7 @@ package org.mastermold.platform.application.definitions
 /**
   * Application event.
   *
-  * @author Grumpy Cat (grumpycat@codekitt.com
+  * @author Grumpy Cat (grumpycat@codekitt.com)
   * @usecase Modelling the application input
   * @tparam Content Content to process
   */
@@ -22,7 +22,7 @@ object Event {
   /**
     * Command event.
     *
-    * @author Grumpy Cat (grumpycat@codekitt.com
+    * @author Grumpy Cat (grumpycat@codekitt.com)
     * @param content Content
     * @param flowId  Flow Id
     */
@@ -31,7 +31,7 @@ object Event {
   /**
     * Query event.
     *
-    * @author Grumpy Cat (grumpycat@codekitt.com
+    * @author Grumpy Cat (grumpycat@codekitt.com)
     * @param content Content
     * @param flowId  Flow Id
     */
